@@ -1,0 +1,60 @@
+---
+# Solo per far sì che Jekyll processi questo file
+---
+
+/* * STILE PERSONALIZZATO PER TOMMY BARBER MODENA
+ */
+
+// 1. IMPORTA I FONT (ES. DA GOOGLE FONTS)
+// Devi importare i font che vuoi usare se non sono di sistema
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display&display=swap');
+
+// 2. DEFINIZIONE DELLE VARIABILI (OVERRIDE)
+// Definisci i colori della tua palette PRIMA di importare lo skin.
+$primary-color: #A0522D; // Marrone caldo
+$link-color: darken($primary-color, 10%);
+
+// Esempi di altri override (scommenta per usarli)
+// $background-color: #FFFFF0; // Avorio per lo sfondo
+// $text-color: #4E342E; // Marrone scuro per il testo
+
+// 3. IMPORT DELLO SKIN (Applica le variabili)
+// Importa lo skin del tema. Userà le variabili $primary-color, ecc. definite sopra.
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+
+// 4. IMPORT DEL TEMA PRINCIPALE (QUESTO MANCAVA)
+// Importa il resto degli stili di Minimal Mistakes.
+@import "minimal-mistakes";
+
+// 5. REGOLE CSS PERSONALIZZATE
+// Aggiungi qui tutte le tue regole specifiche.
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+// Stile per il titolo della sezione Hero
+.page__header .page__title {
+  font-family: 'Playfair Display', serif;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+// Stile bottoni (Il tema ora userà $primary-color automaticamente,
+// ma puoi forzarlo o creare nuovi stili se necessario)
+.btn--primary {
+  background-color: $primary-color;
+  border-color: darken($primary-color, 10%);
+  &:hover {
+    background-color: darken($primary-color, 15%);
+    border-color: darken($primary-color, 20%);
+  }
+}
+
+// Stili per la mappa di Google (responsive)
+#mappa iframe {
+  width: 100%;
+  height: 400px; 
+  border: 0;
+  display: block; // Assicura che non ci siano spazi vuoti sotto la mappa
+}
