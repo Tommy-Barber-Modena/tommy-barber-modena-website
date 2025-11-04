@@ -8,12 +8,13 @@ baseurl: "" # Lascia vuoto per il sito dell'organizzazione
 
 # --- Configurazione Tema Minimal Mistakes ---
 # Questo attiva il tema
-theme: jekyll-theme-minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "default" # Puoi cambiarlo in "dark", "air", "contrast", ecc.
 
 # --- Configurazione Jekyll ---
 # Abilita il plugin del tema
 plugins:
+  - jekyll-remote-theme
   - jekyll-include-cache
 
 # Informazioni autore (opzionale, per il footer/sidebar)
