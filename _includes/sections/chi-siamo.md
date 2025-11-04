@@ -1,3 +1,6 @@
+---
+<span id="chisiamo"></span>
+
 ## Chi Siamo
 
 Benvenuti da Tommy Barber Modena, dove la tradizione incontra lo stile moderno.

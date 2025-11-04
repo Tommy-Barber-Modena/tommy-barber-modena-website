@@ -58,3 +58,40 @@ body {
   border: 0;
   display: block; // Assicura che non ci siano spazi vuoti sotto la mappa
 }
+
+// Stile per tutte le sezioni
+.page__section {
+  padding-top: 4em;
+  padding-bottom: 4em;
+  text-align: center; // Ad esempio
+}
+
+// Stile per gli sfondi alternati
+.alternate-bg {
+  background-color: #f5f5dc; // Il tuo colore Beige
+}
+
+// Stile specifico per la sezione servizi
+.section-servizi {
+  h2 {
+    color: $primary-color; // Usa il colore primario (marrone)
+  }
+  
+  ul {
+    list-style-type: none; // Togli i pallini
+    padding-left: 0;
+  }
+}
+
+// Stile per la mappa (niente padding)
+.section-mappa {
+  padding: 0;
+  margin: 0;
+  
+  iframe {
+    display: block; // Rimuove spazi bianchi
+    width: 100%;
+    height: 450px;
+    border: 0;
+  }
+}
