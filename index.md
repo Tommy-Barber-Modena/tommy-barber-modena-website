@@ -8,9 +8,9 @@ permalink: /
   </div>
 </section>
 
-<section id="galleria" class="page__section section-galleria">
+<section id="chi-siamo" class="page__section section-chi-siamo">
   <div class="wrap">
-    {% include sections/galleria.md %}
+    {% include sections/chi-siamo.md %}
   </div>
 </section>
 
