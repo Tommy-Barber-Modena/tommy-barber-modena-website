@@ -1,4 +1,3 @@
----
 <span id="chisiamo"></span>
 
 ## Chi Siamo
