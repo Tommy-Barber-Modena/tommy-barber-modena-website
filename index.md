@@ -1,5 +1,6 @@
 ---
-layout: single
+layout: splash
+permalink: /
 ---
 
 <section id="servizi" class="page__section section-servizi alternate-bg"> <div class="wrap">

@@ -1,15 +1,12 @@
-# --- Informazioni Sito Base ---
-title: "Tommy Barber Modena"
-description: "Sito ufficiale di Tommy Barber a Modena. Tagli, barba e stile."
-# L'URL base del tuo sito (IMPORTANTE)
-# Se hai rinominato il repo in "tommy-barber-modena.github.io":
-url: "https://tommy-barber-modena.github.io" 
-baseurl: "" # Lascia vuoto per il sito dell'organizzazione
-
-# --- Configurazione Tema Minimal Mistakes ---
-# Questo attiva il tema
+# Impostazioni del sito
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "default" # Puoi cambiarlo in "dark", "air", "contrast", ecc.
+locale: "it-IT" # Impostiamo la lingua italiana
+title: "Tommy Barber Modena"
+description: "Sito ufficiale di Tommy Barber a Modena. Tagli, barba e stile."
+url: "https://Tommy-Barber-Modena.github.io" # L'URL base del tuo GitHub Pages
+baseurl: "/tommy-barber-modena-website" # IMPORTANTE: Il nome del tuo repository
+repository: "Tommy-Barber-Modena/tommy-barber-modena-website" 
 
 # --- Configurazione Jekyll ---
 # Abilita il plugin del tema
@@ -17,7 +14,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
 
-# Informazioni autore (opzionale, per il footer/sidebar)
+# ---  Informazioni autore (opzionale, per il footer/sidebar) ---
 author:
   name: "Giacomo Guerzoni"
   # link: "https'//tuo-sito.com"
@@ -33,3 +30,9 @@ exclude:
   - vendor/ruby/
   - LICENSE
   - README.md
+
+# --- Script esterni da includere nell'head ---
+head_scripts:
+  - https://code.jquery.com/jquery-3.2.1.min.js
+
+logo: "/assets/images/88x88.png"
