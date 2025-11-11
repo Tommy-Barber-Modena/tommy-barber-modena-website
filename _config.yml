@@ -35,4 +35,5 @@ exclude:
 head_scripts:
   - https://code.jquery.com/jquery-3.2.1.min.js
 
-logo: "/assets/images/88x88.png"
+logo: "/assets/images/tommy-logo-no-background.png"
+favicon: "/assets/images/favicon.ico"

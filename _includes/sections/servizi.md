@@ -1,5 +1,3 @@
-<span id="servizi"></span>
-
 ## I Nostri Servizi
 
 Offriamo una gamma completa di servizi per la cura di capelli e barba.
