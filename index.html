@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tommy Barber Modena | Official Site</title>
+    <meta name="description" content="Il tuo barbiere di fiducia a Modena. Prenota ora tramite la nostra app.">
+    
+    <!-- Tailwind CSS (Rimane via CDN per semplicità) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome per le icone -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- COLLEGAMENTO AL TUO FILE CSS ESTERNO -->
+    <link rel="stylesheet" href="static/css/style.css">
+
+</head>
+<body class="theme-classic"> <!-- Default Theme -->
+
+    <!-- NAVIGATION -->
+    <nav class="fixed w-full z-50 px-6 py-4 transition-all" style="background-color: var(--nav-bg);">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold brand-font tracking-wider text-custom-accent">
+                TOMMY BARBER
+            </a>
+            
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex space-x-8 items-center text-sm font-semibold uppercase tracking-widest">
+                <a href="#about" class="hover:text-custom-accent transition-colors">Chi Siamo</a>
+                <a href="#app" class="hover:text-custom-accent transition-colors">App</a>
+                <a href="#reviews" class="hover:text-custom-accent transition-colors">Recensioni</a>
+                <a href="#contact" class="hover:text-custom-accent transition-colors">Contatti</a>
+                <a href="#app" class="btn-custom px-5 py-2">Prenota Ora</a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button onclick="toggleMenu()" class="md:hidden text-2xl focus:outline-none">
+                <i class="fas fa-bars text-custom-accent"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Menu Dropdown -->
+        <div id="mobile-menu" class="hidden md:hidden absolute top-full left-0 w-full p-6 flex flex-col space-y-4 shadow-lg border-b border-gray-800">
+            <a href="#about" class="block text-lg font-bold" onclick="toggleMenu()">Chi Siamo</a>
+            <a href="#app" class="block text-lg font-bold" onclick="toggleMenu()">Download App</a>
+            <a href="#reviews" class="block text-lg font-bold" onclick="toggleMenu()">Dicono di noi</a>
+            <a href="#contact" class="block text-lg font-bold" onclick="toggleMenu()">Dove Siamo</a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="relative h-screen min-h-[600px] flex items-center justify-center text-center px-4 overflow-hidden">
+        <!-- Background Image with Overlay -->
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1503951914875-452162b7f304?q=80&w=2070&auto=format&fit=crop" alt="Barbershop Background" class="w-full h-full object-cover opacity-30">
+            <div class="absolute inset-0 bg-gradient-to-b from-transparent to-[var(--bg-primary)]"></div>
+        </div>
+
+        <div class="relative z-10 max-w-3xl mx-auto mt-16">
+            <p class="text-custom-accent uppercase tracking-[0.3em] mb-4 font-bold text-sm md:text-base animate-pulse">Dal 2024 a Modena</p>
+            <h1 class="text-5xl md:text-7xl mb-6 leading-tight brand-font">
+                L'Arte del <br><span class="text-custom-accent">Taglio Perfetto</span>
+            </h1>
+            <p class="mb-10 text-lg opacity-80 max-w-xl mx-auto">
+                Più di un semplice taglio. Un'esperienza di stile su misura per te.
+                Scarica l'app per saltare la fila.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#app" class="btn-custom px-8 py-4 text-lg shadow-xl flex items-center justify-center gap-2">
+                    <i class="fab fa-apple"></i> Scarica iOS
+                </a>
+                <a href="#app" class="btn-custom px-8 py-4 text-lg shadow-xl flex items-center justify-center gap-2 filter brightness-110">
+                    <i class="fab fa-google-play"></i> Scarica Android
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ABOUT & TEAM SECTION -->
+    <section id="about" class="py-20 bg-custom-sec">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl mb-4 brand-font">Il Nostro <span class="text-custom-accent">Team</span></h2>
+                <div class="w-24 h-1 bg-[var(--text-accent)] mx-auto"></div>
+            </div>
+
+            <!-- Griglia Barberi (Logica Slot predisposta) -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Barber 1 (Tommy - Owner) -->
+                <div class="card group relative overflow-hidden p-4 transition-all duration-300 hover:-translate-y-2">
+                    <div class="aspect-[3/4] overflow-hidden mb-4 rounded-[var(--border-radius)]">
+                        <img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?q=80&w=2070&auto=format&fit=crop" alt="Tommy" class="barber-img w-full h-full group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <h3 class="text-2xl font-bold">Tommy</h3>
+                    <p class="text-custom-accent text-sm uppercase tracking-wider mb-2">Master Barber & Founder</p>
+                    <p class="opacity-70 text-sm">Specializzato in sfumature old school e modellatura barba a lama.</p>
+                </div>
+
+                <!-- Slot Barber 2 (Predisposto) -->
+                <div class="card group relative overflow-hidden p-4 transition-all duration-300 hover:-translate-y-2">
+                    <div class="aspect-[3/4] overflow-hidden mb-4 bg-gray-700/10 flex items-center justify-center rounded-[var(--border-radius)] border-2 border-dashed border-[var(--text-accent)] opacity-30">
+                        <i class="fas fa-user-plus text-4xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold opacity-50">Coming Soon</h3>
+                    <p class="text-custom-accent text-sm uppercase tracking-wider mb-2">Senior Barber</p>
+                    <p class="opacity-70 text-sm">Stiamo selezionando i migliori talenti per ampliare lo staff.</p>
+                </div>
+
+                 <!-- Slot Barber 3 (Predisposto) -->
+                 <div class="hidden lg:block card group relative overflow-hidden p-4 transition-all duration-300 hover:-translate-y-2">
+                    <div class="aspect-[3/4] overflow-hidden mb-4 bg-gray-700/10 flex items-center justify-center rounded-[var(--border-radius)] border-2 border-dashed border-[var(--text-accent)] opacity-30">
+                        <i class="fas fa-user-plus text-4xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold opacity-50">Coming Soon</h3>
+                    <p class="text-custom-accent text-sm uppercase tracking-wider mb-2">Junior Barber</p>
+                    <p class="opacity-70 text-sm">Il team sta crescendo.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- APP DOWNLOAD SECTION -->
+    <section id="app" class="py-20 relative overflow-hidden">
+        <div class="max-w-5xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            
+            <div class="order-2 md:order-1">
+                <h2 class="text-4xl md:text-5xl mb-6 brand-font leading-tight">Prenota in <span class="text-custom-accent">3 Secondi</span></h2>
+                <p class="mb-8 text-lg opacity-80">
+                    Nessuna attesa, nessuna chiamata. Scarica l'app ufficiale Tommy Barber Modena, scegli il tuo slot e gestisci i tuoi appuntamenti in totale autonomia.
+                </p>
+                <div class="flex flex-col gap-4">
+                    <a href="https://apps.apple.com/it/app/tommy-barber-modena/id6745406274" target="_blank" class="flex items-center gap-4 bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition w-max border border-gray-700">
+                        <i class="fab fa-apple text-3xl"></i>
+                        <div class="text-left">
+                            <div class="text-xs uppercase">Scarica su</div>
+                            <div class="text-xl font-bold leading-none">App Store</div>
+                        </div>
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=it.beppefasano.tommy&hl=it" target="_blank" class="flex items-center gap-4 bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition w-max border border-gray-700">
+                        <i class="fab fa-google-play text-3xl"></i>
+                        <div class="text-left">
+                            <div class="text-xs uppercase">DISPONIBILE SU</div>
+                            <div class="text-xl font-bold leading-none">Google Play</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="order-1 md:order-2 flex justify-center relative">
+                <div class="relative w-64 h-[500px] border-8 border-gray-800 rounded-[3rem] bg-gray-900 shadow-2xl overflow-hidden">
+                    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-6 bg-gray-800 rounded-b-xl z-20"></div>
+                    <!-- Mock App UI -->
+                    <div class="w-full h-full bg-white text-black flex flex-col pt-10 px-4">
+                        <div class="flex justify-between items-center mb-6">
+                            <span class="font-bold text-lg">Ciao, Marco</span>
+                            <div class="w-8 h-8 bg-gray-200 rounded-full"></div>
+                        </div>
+                        <div class="bg-black text-white p-4 rounded-xl mb-4">
+                            <div class="text-xs opacity-70">PROSSIMO TAGLIO</div>
+                            <div class="text-xl font-bold">Domani, 15:30</div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-2">
+                            <div class="h-24 bg-gray-100 rounded-lg"></div>
+                            <div class="h-24 bg-gray-100 rounded-lg"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Decorative Elements -->
+                <div class="absolute -z-10 top-10 -right-10 w-40 h-40 bg-[var(--text-accent)] rounded-full blur-3xl opacity-20"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- REVIEWS SECTION -->
+    <section id="reviews" class="py-20 bg-custom-sec">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-center text-3xl mb-12 brand-font">Cosa dicono di noi su <span class="text-custom-accent">Google</span></h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Review 1 -->
+                <div class="card p-6 rounded-[var(--border-radius)] bg-[var(--bg-primary)] shadow-sm">
+                    <div class="flex text-yellow-400 mb-2">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="mb-4 italic opacity-80">"Tommy è il numero uno a Modena. Locale pulito, servizio impeccabile e l'app funziona benissimo."</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-8 h-8 bg-gray-300 rounded-full flex items-center justify-center font-bold text-black text-xs">L</div>
+                        <span class="text-sm font-bold">Luca M.</span>
+                    </div>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="card p-6 rounded-[var(--border-radius)] bg-[var(--bg-primary)] shadow-sm">
+                    <div class="flex text-yellow-400 mb-2">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="mb-4 italic opacity-80">"Finalmente un barbiere che capisce cosa voglio. Sfumatura perfetta. Consigliatissimo!"</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-8 h-8 bg-gray-300 rounded-full flex items-center justify-center font-bold text-black text-xs">G</div>
+                        <span class="text-sm font-bold">Giovanni R.</span>
+                    </div>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="card p-6 rounded-[var(--border-radius)] bg-[var(--bg-primary)] shadow-sm">
+                    <div class="flex text-yellow-400 mb-2">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="mb-4 italic opacity-80">"Professionalità e cortesia. L'ambiente è molto curato. Ci tornerò sicuramente."</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-8 h-8 bg-gray-300 rounded-full flex items-center justify-center font-bold text-black text-xs">A</div>
+                        <span class="text-sm font-bold">Andrea B.</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-10">
+                <a href="#" class="inline-block border-b-2 border-[var(--text-accent)] pb-1 hover:text-[var(--text-accent)] transition">Leggi tutte le recensioni</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT & FOOTER -->
+    <section id="contact" class="pt-20 pb-10">
+        <div class="max-w-6xl mx-auto px-6 mb-12">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <!-- Info -->
+                <div class="md:col-span-1">
+                    <h2 class="text-4xl mb-6 brand-font">Contattaci</h2>
+                    <ul class="space-y-6 text-lg">
+                        <li class="flex items-start gap-4">
+                            <i class="fas fa-map-marker-alt mt-1 text-custom-accent"></i>
+                            <span>Via Emilia Centro, Modena<br><span class="text-sm opacity-60">(Indirizzo demo)</span></span>
+                        </li>
+                        <li class="flex items-center gap-4">
+                            <i class="fas fa-phone text-custom-accent"></i>
+                            <a href="tel:+390000000000" class="hover:text-custom-accent transition">+39 333 123 4567</a>
+                        </li>
+                        <li class="flex items-center gap-4">
+                            <i class="fab fa-instagram text-custom-accent"></i>
+                            <a href="#" class="hover:text-custom-accent transition">@tommybarber_modena</a>
+                        </li>
+                        <li class="flex items-center gap-4">
+                            <i class="fab fa-facebook text-custom-accent"></i>
+                            <a href="#" class="hover:text-custom-accent transition">Tommy Barber Shop</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Map -->
+                <div class="md:col-span-2 h-64 md:h-full min-h-[300px] w-full bg-gray-800 rounded-[var(--border-radius)] overflow-hidden relative">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10000.644558550186!2d10.93464831579738!3d44.65075097909988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477fef6804687a8f%3A0x31ea6a7cec418117!2sTommy%20Barber%20Modena!5e0!3m2!1sit!2sit!4v1702396000000!5m2!1sit!2sit" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:10;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="border-t border-gray-800 mt-20 pt-8 text-center opacity-50 text-sm">
+            <p>&copy; 2024 Tommy Barber Modena. Tutti i diritti riservati. Via Paolo Ferrari, 133, 41121 Modena MO</p>
+        </footer>
+    </section>
+
+    <!-- STYLE SWITCHER (Solo per Demo) -->
+    <div class="fixed bottom-4 right-4 z-50 bg-white text-black p-4 rounded-xl shadow-2xl border-2 border-gray-200 w-64 transform transition-transform" id="style-switcher">
+        <div class="flex justify-between items-center mb-3">
+            <h4 class="font-bold text-sm uppercase">Scegli lo Stile</h4>
+            <button onclick="document.getElementById('style-switcher').classList.toggle('translate-y-full')" class="text-xs underline text-gray-500">Nascondi</button>
+        </div>
+        
+        <div class="space-y-2">
+            <p class="text-xs font-bold text-gray-400 mt-2">Classici (Clean)</p>
+            <button onclick="setTheme('theme-classic')" class="w-full text-left px-3 py-1 bg-gray-100 hover:bg-gray-200 rounded text-xs border-l-4 border-yellow-500">Classic Gold</button>
+            <button onclick="setTheme('theme-industrial')" class="w-full text-left px-3 py-1 bg-gray-100 hover:bg-gray-200 rounded text-xs border-l-4 border-red-500">Industrial Grey</button>
+            <button onclick="setTheme('theme-gentleman')" class="w-full text-left px-3 py-1 bg-gray-100 hover:bg-gray-200 rounded text-xs border-l-4 border-blue-900">Gentleman Navy</button>
+            
+            <p class="text-xs font-bold text-gray-400 mt-2">Creativi (JS/CSS Pure)</p>
+            <button onclick="setTheme('theme-cyber')" class="w-full text-left px-3 py-1 bg-gray-900 text-white hover:bg-black rounded text-xs border-l-4 border-green-400">Cyber Neon</button>
+            <button onclick="setTheme('theme-vintage')" class="w-full text-left px-3 py-1 bg-[#f5f5dc] text-brown-900 hover:bg-[#e8e4c9] rounded text-xs border-l-4 border-[#3e2723]">Vintage Paper</button>
+            <button onclick="setTheme('theme-glass')" class="w-full text-left px-3 py-1 bg-gradient-to-r from-blue-100 to-white hover:opacity-90 rounded text-xs border-l-4 border-indigo-400">Glassmorphism</button>
+        </div>
+    </div>
+
+    <!-- COLLEGAMENTO AL TUO FILE JS ESTERNO -->
+    <script src="static/js/main.js"></script>
+</body>
+</html>
