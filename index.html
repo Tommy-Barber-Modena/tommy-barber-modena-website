@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="static/css/style.css">
 
 </head>
-<body class="theme-classic"> <!-- Default Theme -->
+<body class="theme-amber"> <!-- Default Theme -->
 
     <!-- NAVIGATION -->
     <nav class="fixed w-full z-50 px-6 py-4 transition-all" style="background-color: var(--nav-bg);">
@@ -32,10 +32,9 @@
             
             <!-- Desktop Menu -->
             <div class="hidden md:flex space-x-8 items-center text-sm font-semibold uppercase tracking-widest">
-                <a href="#about" class="hover:text-custom-accent transition-colors">Chi Siamo</a>
-                <a href="#app" class="hover:text-custom-accent transition-colors">App</a>
-                <a href="#reviews" class="hover:text-custom-accent transition-colors">Recensioni</a>
-                <a href="#contact" class="hover:text-custom-accent transition-colors">Contatti</a>
+                <a href="#about" class="border-[var(--text-accent)] hover:text-[var(--text-accent)] transition">Chi Siamo</a>
+                <a href="#reviews" class="border-[var(--text-accent)] hover:text-[var(--text-accent)] transition">Recensioni</a>
+                <a href="#contact" class="border-[var(--text-accent)] hover:text-[var(--text-accent)] transition">Contatti</a>
                 <a href="#app" class="btn-custom px-5 py-2">Prenota Ora</a>
             </div>
 
@@ -48,18 +47,25 @@
         <!-- Mobile Menu Dropdown -->
         <div id="mobile-menu" class="hidden md:hidden absolute top-full left-0 w-full p-6 flex flex-col space-y-4 shadow-lg border-b border-gray-800">
             <a href="#about" class="block text-lg font-bold" onclick="toggleMenu()">Chi Siamo</a>
-            <a href="#app" class="block text-lg font-bold" onclick="toggleMenu()">Download App</a>
             <a href="#reviews" class="block text-lg font-bold" onclick="toggleMenu()">Dicono di noi</a>
             <a href="#contact" class="block text-lg font-bold" onclick="toggleMenu()">Dove Siamo</a>
+            <a href="#app" class="block text-lg font-bold" onclick="toggleMenu()">Download App</a>
         </div>
     </nav>
 
-    <!-- HERO SECTION -->
+    <!-- HERO SECTION 
     <header class="relative h-screen min-h-[600px] flex items-center justify-center text-center px-4 overflow-hidden">
-        <!-- Background Image with Overlay -->
+         Background Image with Overlay
         <div class="absolute inset-0 z-0">
             <img src="https://images.unsplash.com/photo-1503951914875-452162b7f304?q=80&w=2070&auto=format&fit=crop" alt="Barbershop Background" class="w-full h-full object-cover opacity-30">
             <div class="absolute inset-0 bg-gradient-to-b from-transparent to-[var(--bg-primary)]"></div>
+        </div> -->
+    
+    <header class="relative h-screen min-h-[600px] flex items-center justify-center text-center px-4 overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="static/img/desk.png" alt="Tommy Barber Exclusive Design" class="w-full h-full object-cover opacity-50">
+            
+            <div class="absolute inset-0 bg-gradient-to-b from-transparent via-[var(--bg-primary)]/50 to-[var(--bg-primary)]"></div>
         </div>
 
         <div class="relative z-10 max-w-3xl mx-auto mt-16">
@@ -223,7 +229,7 @@
             </div>
             
             <div class="text-center mt-10">
-                <a href="#" class="inline-block border-b-2 border-[var(--text-accent)] pb-1 hover:text-[var(--text-accent)] transition">Leggi tutte le recensioni</a>
+                <a href="https://www.google.com/maps/search/?api=1&query=Tommy+Barber+Modena" class="inline-block border-b-2 border-[var(--text-accent)] pb-1 hover:text-[var(--text-accent)] transition">Leggi tutte le recensioni</a>
             </div>
         </div>
     </section>
@@ -238,19 +244,15 @@
                     <ul class="space-y-6 text-lg">
                         <li class="flex items-start gap-4">
                             <i class="fas fa-map-marker-alt mt-1 text-custom-accent"></i>
-                            <span>Via Emilia Centro, Modena<br><span class="text-sm opacity-60">(Indirizzo demo)</span></span>
+                            <a href="https://maps.google.com/maps/dir//Tommy+Barber+Modena+Via+Paolo+Ferrari,+133+41121+Modena+MO/@44.65075,10.936837,14z/data=!4m5!4m4!1m0!1m2!1m1!1s0x477fef6804687a8f:0x31ea6a7cec418117" target="_blank" class="border-[var(--text-accent)] hover:text-[var(--text-accent)] pb-2 transition">Via Paolo Ferrari, 133, 41121 Modena MO</a>
                         </li>
                         <li class="flex items-center gap-4">
                             <i class="fas fa-phone text-custom-accent"></i>
-                            <a href="tel:+390000000000" class="hover:text-custom-accent transition">+39 333 123 4567</a>
+                            <a href="tel:+390000000000" class="border-[var(--text-accent)] hover:text-[var(--text-accent)] pb-2 transition">+39 351 477 5031</a>
                         </li>
                         <li class="flex items-center gap-4">
                             <i class="fab fa-instagram text-custom-accent"></i>
-                            <a href="#" class="hover:text-custom-accent transition">@tommybarber_modena</a>
-                        </li>
-                        <li class="flex items-center gap-4">
-                            <i class="fab fa-facebook text-custom-accent"></i>
-                            <a href="#" class="hover:text-custom-accent transition">Tommy Barber Shop</a>
+                            <a href="https://www.instagram.com/tommybarbermodena/" class="border-[var(--text-accent)] hover:text-[var(--text-accent)] pb-2 transition">tommybarbermodena</a>
                         </li>
                     </ul>
                 </div>
@@ -284,15 +286,10 @@
         </div>
         
         <div class="space-y-2">
-            <p class="text-xs font-bold text-gray-400 mt-2">Classici (Clean)</p>
-            <button onclick="setTheme('theme-classic')" class="w-full text-left px-3 py-1 bg-gray-100 hover:bg-gray-200 rounded text-xs border-l-4 border-yellow-500">Classic Gold</button>
-            <button onclick="setTheme('theme-industrial')" class="w-full text-left px-3 py-1 bg-gray-100 hover:bg-gray-200 rounded text-xs border-l-4 border-red-500">Industrial Grey</button>
-            <button onclick="setTheme('theme-gentleman')" class="w-full text-left px-3 py-1 bg-gray-100 hover:bg-gray-200 rounded text-xs border-l-4 border-blue-900">Gentleman Navy</button>
-            
-            <p class="text-xs font-bold text-gray-400 mt-2">Creativi (JS/CSS Pure)</p>
-            <button onclick="setTheme('theme-cyber')" class="w-full text-left px-3 py-1 bg-gray-900 text-white hover:bg-black rounded text-xs border-l-4 border-green-400">Cyber Neon</button>
-            <button onclick="setTheme('theme-vintage')" class="w-full text-left px-3 py-1 bg-[#f5f5dc] text-brown-900 hover:bg-[#e8e4c9] rounded text-xs border-l-4 border-[#3e2723]">Vintage Paper</button>
-            <button onclick="setTheme('theme-glass')" class="w-full text-left px-3 py-1 bg-gradient-to-r from-blue-100 to-white hover:opacity-90 rounded text-xs border-l-4 border-indigo-400">Glassmorphism</button>
+            <button onclick="setTheme('theme-classic')" class="w-full text-left px-3 py-1 bg-gray-100 hover:bg-gray-200 rounded text-xs border-l-4 border-yellow-500">theme-classic </button>
+            <button onclick="setTheme('theme-darkwood')" class="w-full text-left px-3 py-1 bg-gray-100 hover:bg-gray-200 rounded text-xs border-l-4 border-red-500">theme-darkwood</button>
+            <button onclick="setTheme('theme-amber')" class="w-full text-left px-3 py-1 bg-gray-100 hover:bg-gray-200 rounded text-xs border-l-4 border-blue-900">theme-amber</button>
+            <button onclick="setTheme('theme-luxury')" class="w-full text-left px-3 py-1 bg-gray-100 hover:bg-gray-200 rounded text-xs border-l-4 border-blue-900">theme-luxury</button>
         </div>
     </div>
 
