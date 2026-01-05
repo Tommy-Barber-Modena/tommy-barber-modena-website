@@ -7,23 +7,7 @@ html {
     scroll-behavior: smooth;
 }
 
-/* --- DEFINIZIONE VARIABILI PER I 6 TEMI --- */
-
-/* TEMA 1: CLASSIC GOLD (Lussuoso - Default) */
-body.theme-classic {
-    --bg-primary: #1a1a1a;
-    --bg-secondary: #252525;
-    --text-main: #f3f4f6;
-    --text-accent: #d4af37; /* Oro */
-    --btn-bg: #d4af37;
-    --btn-text: #000000;
-    --font-head: 'Playfair Display', serif;
-    --font-body: 'Inter', sans-serif;
-    --border-radius: 0px;
-    --nav-bg: rgba(26, 26, 26, 0.95);
-}
-
-/* TEMA 2: AMBER GLOW (Ispirato alla luce calda dell'immagine) */
+/* TEMA 2: AMBER GLOW */
 body.theme-amber {
     --bg-primary: #0f0f0f; /* Nero quasi assoluto */
     --bg-secondary: #1a1a1a; /* Grigio molto scuro per stacco */
@@ -35,34 +19,6 @@ body.theme-amber {
     --font-body: 'Inter', sans-serif;
     --border-radius: 4px;
     --nav-bg: rgba(15, 15, 15, 0.95);
-}
-
-/* TEMA 3: DARK WOOD NOIR (Sofisticato e materico) */
-body.theme-darkwood {
-    --bg-primary: #1c1b1a; /* Carbone caldo molto scuro */
-    --bg-secondary: #292826;
-    --text-main: #d1ccc7; /* Grigio tortora chiaro */
-    --text-accent: #cba382; /* Color legno caldo desaturato */
-    --btn-bg: #cba382;
-    --btn-text: #1c1b1a;
-    --font-head: 'Playfair Display', serif;
-    --font-body: 'Inter', sans-serif;
-    --border-radius: 2px;
-    --nav-bg: rgba(28, 27, 26, 0.95);
-}
-
-/* TEMA 4: SHARP LUXURY (Minimalista e deciso) */
-body.theme-luxury {
-    --bg-primary: #050508; /* Nero profondo con una punta di blu impercettibile */
-    --bg-secondary: #121216;
-    --text-main: #ffffff; /* Bianco puro per massimo contrasto */
-    --text-accent: #d4c49d; /* Oro pallido metallico (Champagne) */
-    --btn-bg: #d4c49d;
-    --btn-text: #050508;
-    --font-head: 'Bebas Neue', sans-serif; /* Font maiuscolo moderno */
-    --font-body: 'Inter', sans-serif;
-    --border-radius: 0px; /* Spigoli vivi */
-    --nav-bg: rgba(5, 5, 8, 0.9);
 }
 
 /* --- APPLICAZIONE VARIABILI --- */
@@ -133,4 +89,73 @@ body.theme-gentleman iframe {
 /* Menu Mobile Dropdown */
 #mobile-menu {
     background-color: var(--bg-primary);
+}
+
+/* --- GALLERY & LIGHTBOX --- */
+
+/* Stile item griglia */
+.gallery-item {
+    position: relative;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    cursor: pointer;
+    aspect-ratio: 1 / 1; /* Mantiene i riquadri quadrati */
+    background-color: var(--bg-secondary);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+/* Hover: Zoom immagine */
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+/* Overlay scuro al passaggio del mouse */
+.gallery-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery-item:hover .gallery-overlay {
+    opacity: 1;
+}
+
+/* Icona centrale (lente o play) */
+.gallery-icon {
+    font-size: 2rem;
+    color: var(--text-main);
+    transform: translateY(20px);
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover .gallery-icon {
+    transform: translateY(0);
+}
+
+/* Distinzione per i video */
+.video-indicator {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: var(--text-accent);
+    color: #000;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    z-index: 10;
 }

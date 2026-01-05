@@ -1,0 +1,334 @@
+{
+  "recensioni": [
+    {
+      "autore": "Giacomo Guerzoni",
+      "voto": 5,
+      "testo": "Trovare un barbiere di fiducia a Modena sembrava un'impresa impossibile, finché non mi sono seduto sulla sedia di Tommy.<br>Tommy è stato fin da subito in grado di consigliarmi e farmi sempre dei tagli che mi stessero bene.<br>È sempre molto preciso e puntuale con gli appuntamenti, questo lo rende perfetto soprattutto se si ha poco tempo a causa degli impegni lavorativi.<br>La sua professionilità e puntualità sono poi circondate da un 'atmosfera sempre rilassata e amichevole.<br>Non posso fare altro che congliarvi di affidarvi a lui."
+    },
+    {
+      "autore": "Matteo Cocola",
+      "voto": 5,
+      "testo": "⭐️⭐️⭐️⭐️⭐️<br>Sono cliente da oltre tre anni e posso dire con certezza che Tommy è una garanzia. Ogni volta che mi siedo sulla sua poltrona, non serve nemmeno spiegare cosa voglio: si affida al suo gusto e alla sua esperienza per scegliere il taglio che meglio si adatta al mio stile, e non sbaglia mai. Il risultato è sempre moderno, curato e impeccabile.<br><br>L’ambiente è rilassante e amichevole, il tipo di posto dove ti senti subito a tuo agio. Il prezzo è giusto per la qualità del servizio, e se posso dare un consiglio: provate il trattamento viso, è davvero top.<br><br>In più, il parcheggio è comodissimo, proprio in zona Maserati. Un dettaglio che fa la differenza.<br>Consigliatissimo!"
+    },
+    {
+      "autore": "Alessandro Ubaldi",
+      "voto": 5,
+      "testo": "La migliore barberia di Modena.<br>La cura e la passione che Tommy applica nel suo lavoro difficilmente la si può trovare in altri posti.<br>A rendere unico il negozio oltre al servizio che rispecchia appieno le richieste del cliente, è l'atmosfera rilassante e accogliente con un salone curato in ogni dettaglio.<br>All' uscita la sensazione è quella di sentirsi coccolati e con un risultato favoloso. Consigliatissimo!"
+    },
+    {
+      "autore": "Fabio De Rosa",
+      "voto": 5,
+      "testo": "Barbiere super professionale,cordiale e simpatico; ogni volta che torno da lui mi fa sentire sempre di casa.<br>Frequento Tommy da sempre perché davvero fin da subito è riuscito ad accontentare la mia richiesta di una barba perfetta oltre al tagliare i capelli e sfumarli in maniera divina.<br>Consigliatissimo per tutti coloro che hanno bisogno di un barbiere di fiducia."
+    },
+    {
+      "autore": "Max",
+      "voto": 5,
+      "testo": "Un'esperienza da vero gentleman!<br>La barberia di Tommy è molto più di un semplice posto dove tagliarsi i capelli: è un luogo dove stile, precisione e passione si incontrano.<br>Ogni dettaglio è curato con attenzione, dall 'accoglienza all'ambiente elegante, fino alla qualità dei servizi. Tommy è un professionista impeccabile, sempre aggiornato sulle ultime tendenze e capace di consigliare il taglio perfetto per valorizzare ogni cliente. Uscire dalla sua poltrona significa sentirsi rinnovati, sicuri di sé e con un look impeccabile. Consigliatissima a chi cerca il massimo da una barberia."
+    },
+    {
+      "autore": "Christian Mistroni",
+      "voto": 5,
+      "testo": "Servizio impeccabile. Fin dal primo momento è stato cordiale e amichevole, mettendomi completamente a mio agio. Ha capito al volo il taglio che volevo, senza bisogno di troppe spiegazioni, e il risultato è stato perfetto. È uno di quei professionisti di cui ci si può fidare davvero, sia per la precisione sia per l’attenzione al cliente. L’atmosfera rilassata ti fa sentire come a casa. Consigliatissimo."
+    },
+    {
+      "autore": "Feras Garabawy",
+      "voto": 5,
+      "testo": "Sono un cliente fisso da anni. Ho iniziato a farmi servire da Tommy quando era ancora dipendente e, non appena ha aperto il suo proprio locale, l'ho seguito senza esitazione.<br>È sempre una garanzia. La mia pelle è particolarmente delicata, ma Tommy riesce a gestirla!"
+    },
+    {
+      "autore": "alessandro mantovi",
+      "voto": 5,
+      "testo": "Se ci fosse la possibilità di mettere 100 stelle le metterei.<br>Super professionale, fantastico taglio.<br>Si fa subito amicizia e ti tratta meravigliosamente.<br>Non importa la complessità del taglio perché riesce sempre ad beccarci alla perfezione.<br>Assolutamente il migliore. Lo consiglio ❤️"
+    },
+    {
+      "autore": "Enrico Dondi",
+      "voto": 5,
+      "testo": "Seppure giovane, Tommy è un barbiere con tanta esperienza e un carattere fantastico.<br>Quando ti taglia i capelli sembra di essere a casa e con risultati ottimi!<br>Super consigliato"
+    },
+    {
+      "autore": "Niccolò Verasani",
+      "voto": 5,
+      "testo": "Tommy è una garanzia.<br>Taglio i capelli da Tommy da circa 2 anni ed é sempre impeccabile, sa ascoltare le esigenze del cliente e accontentarle.<br>Il suo nuovo locale di proprietà è tutto nuovo, accogliente e molto pulito.<br>É sempre un piacere venire da Tommy per taglio, barba e tante chiacchiere. SUPER consigliato"
+    },
+    {
+      "autore": "Alessandro Smeriglio",
+      "voto": 5,
+      "testo": "5 stelle non bastano. Oltre essere davvero bravo come barbiere, Tommy è anche una persona vera come poche si trovano in giro. Super disponibile e professionale, davvero consigliato! Grande Tommy 🔝💪"
+    },
+    {
+      "autore": "Vincenzo Carretta",
+      "voto": 5,
+      "testo": "Ho grande stima per il lavoro di Tommy, una cura del cliente che pochi hanno e in pochissimi hanno a Modena. Professionale e attento alle tue esigenze, ci vado ogni settimana e ogni settimana, mi concedo un momento per me nella routine quotidiana. Quindi: consigliato. Da provare.<br>A presto Tommy !"
+    },
+    {
+      "autore": "Giuseppe Tammaro",
+      "voto": 5,
+      "testo": "Mi sono trovato molto bene! Il barbiere è davvero competente, attento ai dettagli e il locale è sempre pulito e accogliente. Servizio professionale e risultato impeccabile. Consigliatissimo a chi cerca qualità a Modena!"
+    },
+    {
+      "autore": "Adrian Ticala",
+      "voto": 5,
+      "testo": "Vado da Tommy ormai da tempo e ogni volta è una conferma. Sempre preciso, professionale e super costante nel suo lavoro. Non sbaglia mai un colpo, che sia un taglio o una sistemata alla barba. Si vede che ci mette passione e attenzione in tutto quello che fa. È uno di quei barbieri di cui ti puoi fidare ad occhi chiusi. Consigliatissimo!"
+    },
+    {
+      "autore": "Elton Disani",
+      "voto": 5,
+      "testo": "⭐️⭐️⭐️⭐️⭐️<br>Sono rimasto davvero soddisfatto! Il barbiere ha capito subito cosa volevo e il risultato è stato anche meglio delle aspettative. Atmosfera rilassata, ottimi prodotti e grande cortesia. Tornerò sicuramente!"
+    },
+    {
+      "autore": "Luca Bellentani",
+      "voto": 5,
+      "testo": "Tommy ha appena aperto un barber tutto suo.<br>Locale totalmente rinnovato e accogliente.<br>Saprà prendersi cura della tua barba e capelli. Ti trova il look più giusto per il tuo tipo di capelli adatto al tuo volto!!!"
+    },
+    {
+      "autore": "Alfredo Comignani",
+      "voto": 5,
+      "testo": "Se cercate un parrucchiere che sappia tagliare i capelli, e fare una barba perfetta siete nel posto giusto. Competenza professionalita e cura del cliente..<br>Bravo Tommy."
+    },
+    {
+      "autore": "Manuel Putzolu",
+      "voto": 5,
+      "testo": "Tommy un nome una garanzia su Modena. Preciso e accurato sul taglio secondo richieste. Da anni ormai una sicurezza per i miei tagli anche più esigenti."
+    },
+    {
+      "autore": "Davide Zoretti",
+      "voto": 5,
+      "testo": "Conosco Tommy già da qualche anno... tagliavo i capelli da lui, anche quando lavorava nel vecchio negozio come dipendente e devo dire che mi sono sempre trovato benissimo... Da quando si è trasferito nel suo negozio nuovo, sia io che mio figlio abbiamo iniziato a tagliarci sempre con lui e devo dire che Come barbiere a Modena Onesti e professionali per quelli che ho conosciuto io fa la differenza... lo dico con tutta onestà e sincerità... ormai faccio sempre barba e capelli 🔝👏🏼❤️🖤"
+    },
+    {
+      "autore": "Alex Springhetti",
+      "voto": 5,
+      "testo": "⭐️⭐️⭐️⭐️⭐️<br>Ottima esperienza! Barbiere professionale e attento ai dettagli, si vede la passione per il mestiere. Taglio perfetto e ambiente accogliente. Se cercate un barbiere a Modena, ve lo consiglio assolutamente!"
+    },
+    {
+      "autore": "Eddy Murati",
+      "voto": 5,
+      "testo": "Non il solito barbiere.<br>Ogni taglio capelli/barba è come essere coccolati, stile e professionalità tagli moderni e classici.<br>Il prezzo rispetto alla qualità del servizio è il migliore che puoi trovare in tutta Modena.<br>Il miglior barbiere!!"
+    },
+    {
+      "autore": "Lorenzo Lipari",
+      "voto": 5,
+      "testo": "Ragazzi che dire; da quando ho conosciuto Tommy non ho più cambiato barbiere. Pulito, preciso, puntuale e professionale. Super consigliato a chi si vuole fare un taglio di capelli alla moda in totale rilassatezza!"
+    },
+    {
+      "autore": "Alex Sabor",
+      "voto": 5,
+      "testo": "mi è piaciuto davvero tanto. Il posto è pulito e accogliente, molto gentile e professionale. Il taglio è venuto esattamente come lo volevo, e per essere la prima volta temevo qualche piccolo errore, invece no, tutto perfetto. Lo consiglio assolutamente"
+    },
+    {
+      "autore": "Pierluigi Mocelli",
+      "voto": 5,
+      "testo": "Sempre al top"
+    },
+    {
+      "autore": "Filip Yordanov",
+      "voto": 5,
+      "testo": "Top Numero uno a modena"
+    },
+    {
+      "autore": "Florent Rey",
+      "voto": 5,
+      "testo": "Très bonne expérience chez Tommy. L’accueil y est très chaleureux et le professionnalisme au rendez-vous. Travail réalisé avec une grande précision.<br>Je recommande fortement."
+    },
+    {
+      "autore": "Maher Mnasri",
+      "voto": 5,
+      "testo": "This is a wonderful barber. I’ve been getting my hair cut by him for three years now. Always an amazing service punctual and professional!"
+    },
+    {
+      "autore": "Dilan gjoni",
+      "voto": 5,
+      "testo": "Ormai sono 3 anni che vado da Tommy, persona accogliente che sa accontentare tutte le richieste, salone stupendo e professionalità al top, tanta fornitura di prodotti e prezzi top! Consiglio a tutti!"
+    },
+    {
+      "autore": "Amor",
+      "voto": 5,
+      "testo": "Ragazzi se cercate professionalità, passione nella cura della persona, gentilezza e simpatia, Tommy fa per voi , un ragazzo bravissimo nel suo lavoro , andateci non rimarrete delusi, veramente un ottimo parruchiere dove farvi belli per ogni occasione 🤩"
+    },
+    {
+      "autore": "Francesco Cucinotta",
+      "voto": 5,
+      "testo": "Dire top mi sembra poco... veramente bravo, professionale, e disponibile a qualsiasi richiesta del cliente... Tommy grazie mille"
+    },
+    {
+      "autore": "Adam",
+      "voto": 5,
+      "testo": "Molto bravo! Da quando ho inziato ad andare da lui non ho più smesso! Preparato, compentente e simpatico. È una garanzia!"
+    },
+    {
+      "autore": "Thomas Curto",
+      "voto": 5,
+      "testo": "Molto professionale , socievole e disponibile.. lo conosco da 7 anni sta sempre sul pezzo .. ve lo consiglio vivamente 💪🏻"
+    },
+    {
+      "autore": "Francesco Piraneo",
+      "voto": 5,
+      "testo": "Barbiere davvero bravo e simpatico consigliato"
+    },
+    {
+      "autore": "Roberto Gianno",
+      "voto": 5,
+      "testo": "Servizio impeccabile, Tommy sempre puntuale e super disponibile, una garanzia!"
+    },
+    {
+      "autore": "Leonardo Cordoano",
+      "voto": 5,
+      "testo": "Il locale è pulito e accogliente. Tommy è il top , simpatico e molto bravo.<br>Super consigliato"
+    },
+    {
+      "autore": "Davide testa",
+      "voto": 5,
+      "testo": "Taglio perfetto pulizia e gentilezza Tommy gentilissimo e molto competente"
+    },
+    {
+      "autore": "Vincenzo Izzo",
+      "voto": 5,
+      "testo": "ragazzo Gentile ,cordiale e soprattutto bravissimo nel suo lavoro preciso e attento ai minimi dettagli LO CONSIGLIO ASSOLUTAMENTE!!!"
+    },
+    {
+      "autore": "Andrea Rossi",
+      "voto": 5,
+      "testo": "Uno dei barbieri migliori su Modena"
+    },
+    {
+      "autore": "Alessandro Esposito",
+      "voto": 5,
+      "testo": "Una garanzia per capelli barba e sopracciglia grande Tommy"
+    },
+    {
+      "autore": "emrah gurbuz",
+      "voto": 5,
+      "testo": "Uno dei pochissimi,bravo con la Macchinetta quanto con le Forbici...."
+    },
+    {
+      "autore": "Jj",
+      "voto": 5,
+      "testo": "TOP a Modena gentilissimo simpatico stra disponibile 🙏🏻🙏🏻🙏🏻"
+    },
+    {
+      "autore": "Nicolò Pisani",
+      "voto": 5,
+      "testo": "Taglio perfetto, ambiente accogliente e massima professionalità. Consigliatissimo!"
+    },
+    {
+      "autore": "Daniele ditta",
+      "voto": 5,
+      "testo": "Se cercate il numero 1 a modena per barba e capelli siete nel posto giusto"
+    },
+    {
+      "autore": "angelo_tortorella99 Tortorella",
+      "voto": 5,
+      "testo": "PROFESSIONALITÀ, CORTESIA E SERVIZIO A 5 stelle."
+    },
+    {
+      "autore": "Matteo Grilli",
+      "voto": 5,
+      "testo": "Molto bravo e preciso, il migliore a Modena"
+    },
+    {
+      "autore": "Mario Fabio Lodi Rizzini",
+      "voto": 5,
+      "testo": "Complimenti tommy! Voto 10 come sempre"
+    },
+    {
+      "autore": "Francesco Pincelli",
+      "voto": 5,
+      "testo": "Il top"
+    },
+    {
+      "autore": "Nicola Asiatico",
+      "voto": 5,
+      "testo": "Miglior barbiere in circolazione, diffidate dalle imitazioni.<br>Serio competente e professionale, tagli e barba impeccabili e precisione unica. Tommy sei il numero 1!"
+    },
+    {
+      "autore": "Matteo Fabrizio",
+      "voto": 5,
+      "testo": "Da Tommy professionalità e simpatia sono di casa. Curo barba e capelli da lui già da un paio d'anni ormai ed il servizio è sempre stato al top.Se cercate un barbiere ad un prezzo accessibile e non distante dal centro con lui siete nel posto giusto!"
+    },
+    {
+      "autore": "giovanni roberto",
+      "voto": 5,
+      "testo": "Il top del top! Un ragazzo semplice, alla mano, che ti mette subito a tuo agio. Niente fronzoli, solo tagli fatti bene, chiacchiere vere e un ambiente che ti fa sentire a casa. È come andare dall’amico che sa tagliare i capelli meglio di chiunque altro. Da quando l’ho scoperto, non vado più da nessun’altra parte. Consigliatissimo"
+    },
+    {
+      "autore": "Francesco De Giorgi",
+      "voto": 5,
+      "testo": "Mi sono trovato a Modena per lavoro, e ho scelto di andare da Tommy su suggerimento di un collega. Mai fatta una scelta più giusta, ragazzo simpaticissimo, umile e BRAVISSIMO nel suo lavoro. Mai avuta una barba così perfetta e un taglio davvero davvero fatto benissimo. Tornerò sicuramente, complimenti ancora."
+    },
+    {
+      "autore": "Bernard Bonello",
+      "voto": 5,
+      "testo": "Vado da Tommy da 3 anni! Un barbiere motivato, attento e divertente! Nulla di male da dire!"
+    },
+    {
+      "autore": "Pasquale Salcuni Notarangelo",
+      "voto": 5,
+      "testo": "Mi affido a Tommy da qualche anno e ogni volta è una certezza. La sua precisione è impeccabile, ogni taglio è curato nei minimi dettagli. Ma quello che fa davvero la differenza è la sua simpatia: riesce sempre a metterti a tuo agio e trasformare il momento del taglio in una chiacchierata piacevole!"
+    },
+    {
+      "autore": "Carlo Natale",
+      "voto": 5,
+      "testo": "Da anni mi affido a Tommy per taglio e barba: preciso, creativo e sempre al passo coi tempi. Con Tommy Barber Modena ha creato uno spazio accogliente e impeccabile, dove ogni dettaglio fa la differenza. Il top a Modena!"
+    },
+    {
+      "autore": "Massimo Colasanti",
+      "voto": 5,
+      "testo": "Salone con ambiente accogliente e sereno, nessun problema di parcheggio, prenotazione in App e niente fila.<br>Tommy eccellente barber, professionale, disponibile e sempre cordiale: per barba e capelli da più di tre anni ha la mia fiducia!"
+    },
+    {
+      "autore": "Alessandro Zaccarini",
+      "voto": 5,
+      "testo": "Di barbieri ce ne sono ne sono tanti, ma di professionisti che ti fanno amare il momento e il relax davvero pochi. Il ragazzo poi è preciso e merita di chiedergli il trattamento barba capelli completo. Andateci e ci tornerete!"
+    },
+    {
+      "autore": "Gaia Giorgianni",
+      "voto": 5,
+      "testo": "Mio marito si trova benissimo. Tommy è molto gentile, professionale e disponibile. Consigliatissimo!"
+    },
+    {
+      "autore": "Loris Buselli",
+      "voto": 5,
+      "testo": "Stamattina sono stato da Tommy a tagliare i capelli e devo dire che è un locale molto pulito e il proprietario è una persona molto gentile e simpatica. Ve lo CONSIGLIO"
+    },
+    {
+      "autore": "Marco Milanetti",
+      "voto": 5,
+      "testo": "Sono molto soddisfatto dei tagli di Tommy (e lo è anche la mia ragazza). Ma la cosa che apprezzo di più è l'atmosfera amichevole e informale che si crea quando vado"
+    },
+    {
+      "autore": "Paolo Manfredini",
+      "voto": 5,
+      "testo": "Mamma mia fortissimo da quando ha aperto penso che verrò a vita qui perché cura tutti i minimi dettagli e soprattutto riesce a soddisfare qualsiasi cosa chiedi. Fai paura Ammó 😘"
+    },
+    {
+      "autore": "Stefano Zaccarini",
+      "voto": 5,
+      "testo": "Eccellente servizio e cura dei dettagli. Preciso nell orario e rispettoso delle tempistiche. Per un ora di taglio capelli e barba me ne esco super rilassato. Consiglio vivamente.<br>Ambiente climatizzato"
+    },
+    {
+      "autore": "Davide Ansaloni",
+      "voto": 5,
+      "testo": "Sono ormai più di 2 anni che mi affido a lui, molto professionale, competente e affidabile, una garanzia!<br>Se avete bisogno di un bel taglio di capelli o barba di sicuro non vi deluderà."
+    },
+    {
+      "autore": "Valerio Spicci",
+      "voto": 5,
+      "testo": "Ne ho provati tanti a Modena e provincia,lui è il migliore.<br>Soddisfa tutte le mie richieste,qualità/prezzo top."
+    },
+    {
+      "autore": "martino pio balbi",
+      "voto": 5,
+      "testo": "Barbiere super professionale , in grado di accogliere qualsiasi richiesta e taglio , appena conosciuto e di sicuro non lo cambierò"
+    },
+    {
+      "autore": "Francesco Candito",
+      "voto": 5,
+      "testo": "Preciso e sempre pronto ad ascoltare le tue esigenze di taglio. Ottimo rapporto qualità prezzo!"
+    },
+    {
+      "autore": "luciana ognissanti",
+      "voto": 5,
+      "testo": "molto bravo, è andato il mio ragazzo a tagliarsi barba e capelli da lui, siamo rimasti molto soddisfatti. lo consiglio a tutti. molto professionale e pulito."
+    }
+  ]
+}
