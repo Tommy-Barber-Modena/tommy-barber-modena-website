@@ -93,42 +93,43 @@
     <!-- ABOUT & TEAM SECTION -->
     <section id="about" class="py-20 bg-custom-sec">
         <div class="max-w-6xl mx-auto px-6">
-            <div class="text-center mb-16">
-                <h2 class="text-4xl mb-4 brand-font">Il Nostro <span class="text-custom-accent">Team</span></h2>
-                <div class="w-24 h-1 bg-[var(--text-accent)] mx-auto"></div>
-            </div>
-
-            <!-- Griglia Barberi (Logica Slot predisposta) -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 
-                <!-- Barber 1 (Tommy - Owner) -->
-                <div class="card group relative overflow-hidden p-4 transition-all duration-300 hover:-translate-y-2">
-                    <div class="aspect-[3/4] overflow-hidden mb-4 rounded-[var(--border-radius)]">
-                        <img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?q=80&w=2070&auto=format&fit=crop" alt="Tommy" class="barber-img w-full h-full group-hover:scale-110 transition-transform duration-500">
-                    </div>
-                    <h3 class="text-2xl font-bold">Tommy</h3>
-                    <p class="text-custom-accent text-sm uppercase tracking-wider mb-2">Master Barber & Founder</p>
-                    <p class="opacity-70 text-sm">Specializzato in sfumature old school e modellatura barba a lama.</p>
+                <div class="relative h-full min-h-[500px] w-full rounded-[var(--border-radius)] overflow-hidden shadow-2xl group">
+                    <img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?q=80&w=2070&auto=format&fit=crop" 
+                         alt="Tommy Barber" 
+                         class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                    
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-60"></div>
                 </div>
 
-                <!-- Slot Barber 2 (Predisposto) -->
-                <div class="card group relative overflow-hidden p-4 transition-all duration-300 hover:-translate-y-2">
-                    <div class="aspect-[3/4] overflow-hidden mb-4 bg-gray-700/10 flex items-center justify-center rounded-[var(--border-radius)] border-2 border-dashed border-[var(--text-accent)] opacity-30">
-                        <i class="fas fa-user-plus text-4xl"></i>
-                    </div>
-                    <h3 class="text-2xl font-bold opacity-50">Coming Soon</h3>
-                    <p class="text-custom-accent text-sm uppercase tracking-wider mb-2">Senior Barber</p>
-                    <p class="opacity-70 text-sm">Stiamo selezionando i migliori talenti per ampliare lo staff.</p>
-                </div>
+                <div class="flex flex-col justify-center text-left">
+                    <p class="text-custom-accent uppercase tracking-[0.2em] font-bold text-sm mb-2">Master Barber & Founder</p>
+                    <h2 class="text-5xl md:text-6xl mb-6 brand-font leading-none">
+                        Tommy <br><span class="text-custom-accent">Barber</span>
+                    </h2>
+                    
+                    <div class="w-20 h-1 bg-[var(--text-accent)] mb-8"></div>
 
-                 <!-- Slot Barber 3 (Predisposto) -->
-                 <div class="hidden lg:block card group relative overflow-hidden p-4 transition-all duration-300 hover:-translate-y-2">
-                    <div class="aspect-[3/4] overflow-hidden mb-4 bg-gray-700/10 flex items-center justify-center rounded-[var(--border-radius)] border-2 border-dashed border-[var(--text-accent)] opacity-30">
-                        <i class="fas fa-user-plus text-4xl"></i>
+                    <div class="space-y-6 text-lg opacity-80 leading-relaxed">
+                        <p>
+                            Benvenuto. Sono Tommy, e la barberia è la mia vita.
+                        </p>
+                        <p>
+                            Con oltre <strong class="text-white">6 anni di esperienza</strong> maturata lavorando nelle migliori barberie tra <strong class="text-white">Modena e Bologna</strong>, ho affinato la mia tecnica e il mio stile, imparando che ogni cliente merita un'attenzione unica.
+                        </p>
+                        <p>
+                            Ho deciso di mettermi in proprio per un motivo semplice: volevo il tempo e la libertà di curare ogni dettaglio. Qui non sei un numero in una catena di montaggio. Ho creato questo spazio per dedicarmi completamente a te, offrendoti non solo un taglio impeccabile, ma un momento di relax e fiducia assoluta.
+                        </p>
                     </div>
-                    <h3 class="text-2xl font-bold opacity-50">Coming Soon</h3>
-                    <p class="text-custom-accent text-sm uppercase tracking-wider mb-2">Junior Barber</p>
-                    <p class="opacity-70 text-sm">Il team sta crescendo.</p>
+
+                    <div class="mt-10">
+                        <a href="#app" class="btn-custom px-8 py-4 text-lg shadow-xl inline-flex items-center gap-3">
+                            <span>Prenota il tuo taglio</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
                 </div>
 
             </div>
