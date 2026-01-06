@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scarica Tommy Barber App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;600&display=swap">
+    <style>
+        .brand-font { font-family: 'Bebas Neue', cursive; }
+        .btn-custom { background-color: #fbbf24; color: black; font-weight: bold; transition: all 0.3s; }
+        .btn-custom:hover { background-color: white; transform: translateY(-2px); }
+    </style>
+    
+    <script>
+        function mobileRedirect() {
+            var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+            
+            // Link diretti agli store
+            var androidLink = "https://play.google.com/store/apps/details?id=it.beppefasano.tommy&hl=it";
+            var iosLink = "https://apps.apple.com/it/app/tommy-barber-modena/id6745406274";
+
+            // Rilevamento Android
+            if (/android/i.test(userAgent)) {
+                window.location.replace(androidLink);
+                return;
+            }
+
+            // Rilevamento iOS (iPhone/iPad)
+            if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                window.location.replace(iosLink);
+                return;
+            }
+            
+            // Se siamo qui, l'utente è su PC o un dispositivo non riconosciuto:
+            // La pagina caricherà l'HTML sottostante mostrando i bottoni.
+        }
+
+        // Esegui redirect appena possibile
+        mobileRedirect();
+    </script>
+</head>
+<body class="bg-gray-900 text-white h-screen flex items-center justify-center text-center p-6">
+    <div class="max-w-md">
+        <h1 class="text-4xl brand-font mb-2 text-amber-400">Tommy Barber</h1>
+        <p class="mb-8 opacity-80">Scegli il tuo store per scaricare l'app.</p>
+        
+        <div class="flex flex-col gap-4">
+            <a href="https://apps.apple.com/it/app/tommy-barber-modena/id6745406274" class="btn-custom py-4 px-8 rounded-lg flex items-center justify-center gap-3">
+                <i class="fab fa-apple text-2xl"></i> App Store
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=it.beppefasano.tommy&hl=it" class="btn-custom py-4 px-8 rounded-lg flex items-center justify-center gap-3">
+                <i class="fab fa-google-play text-xl"></i> Google Play
+            </a>
+        </div>
+    </div>
+</body>
+</html>

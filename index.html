@@ -29,7 +29,7 @@
 
 </head>
 
-<body class="theme-amber"> <!-- Default Theme -->
+<body class="theme-amber">
 
     <!-- NAVIGATION -->
     <nav class="fixed w-full z-50 px-6 py-4 transition-all" style="background-color: var(--nav-bg);">
@@ -139,27 +139,75 @@
     <!-- APP DOWNLOAD SECTION -->
     <section id="app" class="py-20 relative overflow-hidden">
         <div class="max-w-5xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            
+
             <div class="order-2 md:order-1">
-                <h2 class="text-4xl md:text-5xl mb-6 brand-font leading-tight">Prenota in <span class="text-custom-accent">3 Secondi</span></h2>
-                <p class="mb-8 text-lg opacity-80">
-                    Nessuna attesa, nessuna chiamata. Scarica l'app ufficiale Tommy Barber Modena, scegli il tuo slot e gestisci i tuoi appuntamenti in totale autonomia.
-                </p>
-                <div class="flex flex-col gap-4">
-                    <a href="https://apps.apple.com/it/app/tommy-barber-modena/id6745406274" target="_blank" class="flex items-center gap-4 bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition w-max border border-gray-700">
-                        <i class="fab fa-apple text-3xl"></i>
-                        <div class="text-left">
-                            <div class="text-xs uppercase">Scarica su</div>
-                            <div class="text-xl font-bold leading-none">App Store</div>
+                <h2 class="text-4xl md:text-5xl mb-8 brand-font leading-tight">
+                    Prenota in <span class="text-custom-accent">3 Secondi</span>
+                </h2>
+
+                <div class="flex flex-col gap-6 mb-10">
+                    
+                    <div class="flex group">
+                        <div class="shrink-0 w-12 h-12 rounded-full bg-gray-900 border border-gray-700 text-custom-accent flex items-center justify-center text-xl shadow-lg transition-colors group-hover:bg-custom-accent group-hover:text-black group-hover:border-transparent">
+                            <i class="fas fa-mobile-screen-button"></i>
                         </div>
-                    </a>
-                    <a href="https://play.google.com/store/apps/details?id=it.beppefasano.tommy&hl=it" target="_blank" class="flex items-center gap-4 bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition w-max border border-gray-700">
-                        <i class="fab fa-google-play text-3xl"></i>
-                        <div class="text-left">
-                            <div class="text-xs uppercase">DISPONIBILE SU</div>
-                            <div class="text-xl font-bold leading-none">Google Play</div>
+                        <div class="ml-4">
+                            <h3 class="text-xl font-bold text-white mb-1 group-hover:text-custom-accent transition-colors">1. Scarica l'App</h3>
+                            <p class="text-sm text-gray-400 leading-relaxed max-w-sm">
+                                Disponibile gratuitamente per iOS e Android. Nessuna registrazione complicata.
+                            </p>
                         </div>
-                    </a>
+                    </div>
+
+                    <div class="flex group">
+                        <div class="shrink-0 w-12 h-12 rounded-full bg-gray-900 border border-gray-700 text-custom-accent flex items-center justify-center text-xl shadow-lg transition-colors group-hover:bg-custom-accent group-hover:text-black group-hover:border-transparent">
+                            <i class="far fa-calendar-check"></i>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-xl font-bold text-white mb-1 group-hover:text-custom-accent transition-colors">2. Scegli il tuo Slot</h3>
+                            <p class="text-sm text-gray-400 leading-relaxed max-w-sm">
+                                Seleziona il servizio e l'orario che preferisci in tempo reale.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex group">
+                        <div class="shrink-0 w-12 h-12 rounded-full bg-gray-900 border border-gray-700 text-custom-accent flex items-center justify-center text-xl shadow-lg transition-colors group-hover:bg-custom-accent group-hover:text-black group-hover:border-transparent">
+                            <i class="fas fa-scissors"></i>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-xl font-bold text-white mb-1 group-hover:text-custom-accent transition-colors">3. Goditi il Taglio</h3>
+                            <p class="text-sm text-gray-400 leading-relaxed max-w-sm">
+                                Conferma e rilassati. Gestisci i tuoi appuntamenti in totale autonomia.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="flex flex-col sm:flex-row items-center gap-8">
+                    
+                    <div class="flex flex-col gap-4 w-full sm:w-auto">
+                        <a href="https://apps.apple.com/it/app/tommy-barber-modena/id6745406274" target="_blank" 
+                        class="btn-custom flex items-center justify-center gap-4 px-8 py-4 text-lg shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all border-2 border-transparent hover:border-black rounded-lg w-full sm:w-64">
+                            <i class="fab fa-apple text-2xl"></i>
+                            <span class="font-bold tracking-wide">APP STORE</span>
+                        </a>
+                        
+                        <a href="https://play.google.com/store/apps/details?id=it.beppefasano.tommy&hl=it" target="_blank" 
+                        class="btn-custom flex items-center justify-center gap-4 px-8 py-4 text-lg shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all border-2 border-transparent hover:border-black rounded-lg w-full sm:w-64">
+                            <i class="fab fa-google-play text-xl"></i>
+                            <span class="font-bold tracking-wide">GOOGLE PLAY</span>
+                        </a>
+                    </div>
+
+                    <div class="hidden sm:flex flex-col items-center justify-center p-4 bg-white text-black rounded-xl shadow-lg border-4 border-gray-900 ml-4 transform rotate-2 hover:rotate-0 transition-transform duration-300">
+                        <img src="static/img/qrcode-download-app.png" 
+                            alt="Scan to Download" 
+                            class="w-32 h-32 mb-2">
+                        <span class="text-xs font-bold uppercase tracking-wider">Scansiona qui</span>
+                    </div>
+
                 </div>
             </div>
 
