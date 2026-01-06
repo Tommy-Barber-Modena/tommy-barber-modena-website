@@ -40,9 +40,10 @@
             
             <!-- Desktop Menu -->
             <div class="hidden md:flex space-x-8 items-center text-sm font-semibold uppercase tracking-widest">
-                <a href="#about" class="border-[var(--text-accent)] hover:text-[var(--text-accent)] transition">Chi Siamo</a>
+                <a href="#about" class="border-[var(--text-accent)] hover:text-[var(--text-accent)] transition">Storia</a>
+                <a href="#prezzi" class="border-[var(--text-accent)] hover:text-[var(--text-accent)] transition">Prezzi</a>
                 <a href="#app" class="btn-custom px-5 py-2">Prenota Ora</a>
-                <a href="#gallery" class="border-[var(--text-accent)] hover:text-[var(--text-accent)] transition">Gallery</a>
+                <a href="#gallery" class="border-[var(--text-accent)] hover:text-[var(--text-accent)] transition">Galleria</a>
                 <a href="#reviews" class="border-[var(--text-accent)] hover:text-[var(--text-accent)] transition">Recensioni</a>
                 <a href="#contact" class="border-[var(--text-accent)] hover:text-[var(--text-accent)] transition">Contatti</a>
             </div>
@@ -55,14 +56,16 @@
 
         <!-- Mobile Menu Dropdown -->
         <div id="mobile-menu" class="hidden md:hidden absolute top-full left-0 w-full p-6 flex flex-col space-y-4 shadow-lg border-b border-gray-800">
-            <a href="#about" class="block text-lg font-bold" onclick="toggleMenu()">Chi Siamo</a>
+            <a href="#about" class="block text-lg font-bold" onclick="toggleMenu()">Storia</a>
+            <a href="#prezzi" class="block text-lg font-bold" onclick="toggleMenu()">Prezzi</a>
             <a href="#app" class="block text-lg font-bold" onclick="toggleMenu()">Download App</a>
-            <a href="#gallery" class="block text-lg font-bold" onclick="toggleMenu()">Gallery</a>
+            <a href="#gallery" class="block text-lg font-bold" onclick="toggleMenu()">Galleria</a>
             <a href="#reviews" class="block text-lg font-bold" onclick="toggleMenu()">Recensioni</a>
             <a href="#contact" class="block text-lg font-bold" onclick="toggleMenu()">Contatti</a>
         </div>
     </nav>
-    
+
+    <!-- HOME -->
     <header class="relative h-screen min-h-[600px] flex items-center justify-center text-center px-4 overflow-hidden">
         <div class="absolute inset-0 z-0">
             <img src="static/img/desk.png" alt="Tommy Barber Exclusive Design" class="w-full h-full object-cover opacity-50">
@@ -91,7 +94,7 @@
     </header>
 
     <!-- ABOUT & TEAM SECTION -->
-    <section id="about" class="py-20 bg-custom-sec">
+    <section id="about" class="py-20 bg-custom-secondary">
         <div class="max-w-6xl mx-auto px-6">
             
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
@@ -136,8 +139,42 @@
         </div>
     </section>
 
+    <!-- PREZZI SECTION -->
+    <section id="prezzi" class="py-20 bg-custom-primary">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-4xl md:text-5xl mb-16 text-center brand-font">Prezzi</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-custom-secondary p-8 rounded-xl shadow-lg">
+                    <h3 class="text-xl font-bold mb-4">Barba</h3>
+                    <p class="text-custom-accent font-bold text-xl mb-4">€15</p>
+                    <p class="opacity-80">Rasatura barba con rasoio.</p>
+                </div>
+                <div class="bg-custom-secondary p-8 rounded-xl shadow-lg">
+                    <h3 class="text-xl font-bold mb-4">Taglio</h3>
+                    <p class="text-custom-accent font-bold text-xl mb-4">€20</p>
+                    <p class="opacity-80">Taglio completo.</p>
+                </div>
+                <div class="bg-custom-secondary p-8 rounded-xl shadow-lg">
+                    <h3 class="text-xl font-bold mb-4">Taglio & Barba</h3>
+                    <p class="text-custom-accent font-bold text-xl mb-4">€30</p>
+                    <p class="opacity-80">Taglio + barba + rasoio</p>
+                </div>
+                <div class="bg-custom-secondary p-8 rounded-xl shadow-lg">
+                    <h3 class="text-xl font-bold mb-4">Taglio & Barba con Panno Caldo</h3>
+                    <p class="text-custom-accent font-bold text-xl mb-4">€35</p>
+                    <p class="opacity-80">Taglio e barba con rasoio e panno caldo.</p>
+                </div>
+                <div class="bg-custom-secondary p-8 rounded-xl shadow-lg">
+                    <h3 class="text-xl font-bold mb-4">Taglio Bimbo (da 3 a 10 anni)</h3>
+                    <p class="text-custom-accent font-bold text-xl mb-4">€15</p>
+                    <p class="opacity-80">Taglio per bambini</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- APP DOWNLOAD SECTION -->
-    <section id="app" class="py-20 relative overflow-hidden">
+    <section id="app" class="py-20 relative overflow-hidden bg-custom-secondary">
         <div class="max-w-5xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
             <div class="order-2 md:order-1">
@@ -375,7 +412,7 @@
     </div>
 
     <!-- REVIEWS SECTION -->
-    <section id="reviews" class="py-20 bg-custom-sec">
+    <section id="reviews" class="py-20 bg-custom-secondary">
         <div class="max-w-6xl mx-auto px-6">
             <h2 class="text-center text-3xl mb-12 brand-font">Cosa dicono di me</h2>
 

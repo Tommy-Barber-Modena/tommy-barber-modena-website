@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Generazione HTML Card
             htmlContent += `
-            <div class="card p-6 rounded-[var(--border-radius)] bg-[var(--bg-primary)] shadow-sm flex flex-col justify-between h-full">
+            <div class="card p-6 rounded-xl bg-custom-primary shadow-sm flex flex-col justify-between h-full">
                 <div>
                     <div class="flex text-yellow-400 mb-2">
                         ${starsHtml}

@@ -33,7 +33,8 @@ h1, h2, h3, .brand-font {
     font-family: var(--font-head);
 }
 
-.bg-custom-sec { background-color: var(--bg-secondary); }
+.bg-custom-primary { background-color: var(--bg-primary); }
+.bg-custom-secondary { background-color: var(--bg-secondary); }
 .text-custom-accent { color: var(--text-accent); }
 
 /* Stile Bottoni */
