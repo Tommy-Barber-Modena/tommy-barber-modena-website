@@ -283,4 +283,30 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    // Navigazione Swipe (Mobile)
+    let touchStartX = 0;
+    let touchEndX = 0;
+    
+    lightbox.addEventListener('touchstart', e => {
+        touchStartX = e.changedTouches[0].screenX;
+    }, {passive: true});
+    
+    lightbox.addEventListener('touchend', e => {
+        touchEndX = e.changedTouches[0].screenX;
+        handleSwipe();
+    }, {passive: true});
+    
+    function handleSwipe() {
+        // threshold minimo per considerare lo swipe valido
+        const threshold = 50; 
+        if (touchEndX < touchStartX - threshold) {
+            // Swipe verso sinistra -> prossima immagine
+            nextImage();
+        }
+        if (touchEndX > touchStartX + threshold) {
+            // Swipe verso destra -> immagine precedente
+            prevImage();
+        }
+    }
+
 });
