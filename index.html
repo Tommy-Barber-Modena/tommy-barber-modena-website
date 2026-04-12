@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tommy Barber Modena | Official Site</title>
     <meta name="description" content="Il tuo barbiere di fiducia a Modena. Prenota ora tramite la nostra app.">
-    
+
     <!-- Preconnect-->
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
     <link rel="preconnect" href="https://cdn.tailwindcss.com" crossorigin>
@@ -13,15 +14,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <!--Preload-->
-    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-solid-900.woff2"
+        as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-brands-400.woff2"
+        as="font" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" href="static/data/reviews.json" as="fetch" crossorigin="anonymous">
 
     <!-- Font Awesome per le icone -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Google Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Roboto+Mono:wght@400;700&display=swap">
-    <!-- Collegamento al tuo file CSS esterno --> 
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Roboto+Mono:wght@400;700&display=swap">
+    <!-- Collegamento al tuo file CSS esterno -->
     <link rel="stylesheet" href="static/css/style.css">
 
     <!-- Tailwind CSS (Rimane via CDN per semplicità) -->
@@ -37,15 +41,20 @@
             <a href="#" class="text-2xl font-bold brand-font tracking-wider text-custom-accent">
                 TOMMY BARBER
             </a>
-            
+
             <!-- Desktop Menu -->
             <div class="hidden md:flex space-x-8 items-center text-sm font-semibold uppercase tracking-widest">
-                <a href="#about" class="border-[var(--text-accent)] hover:text-[var(--text-accent)] transition">Storia</a>
-                <a href="#prezzi" class="border-[var(--text-accent)] hover:text-[var(--text-accent)] transition">Prezzi</a>
+                <a href="#about"
+                    class="border-[var(--text-accent)] hover:text-[var(--text-accent)] transition">Storia</a>
+                <a href="#prezzi"
+                    class="border-[var(--text-accent)] hover:text-[var(--text-accent)] transition">Prezzi</a>
                 <a href="#app" class="btn-custom px-5 py-2">Prenota Ora</a>
-                <a href="#gallery" class="border-[var(--text-accent)] hover:text-[var(--text-accent)] transition">Galleria</a>
-                <a href="#reviews" class="border-[var(--text-accent)] hover:text-[var(--text-accent)] transition">Recensioni</a>
-                <a href="#contact" class="border-[var(--text-accent)] hover:text-[var(--text-accent)] transition">Contatti</a>
+                <a href="#gallery"
+                    class="border-[var(--text-accent)] hover:text-[var(--text-accent)] transition">Galleria</a>
+                <a href="#reviews"
+                    class="border-[var(--text-accent)] hover:text-[var(--text-accent)] transition">Recensioni</a>
+                <a href="#contact"
+                    class="border-[var(--text-accent)] hover:text-[var(--text-accent)] transition">Contatti</a>
             </div>
 
             <!-- Mobile Menu Button -->
@@ -55,7 +64,8 @@
         </div>
 
         <!-- Mobile Menu Dropdown -->
-        <div id="mobile-menu" class="hidden md:hidden absolute top-full left-0 w-full p-6 flex flex-col space-y-4 shadow-lg border-b border-gray-800">
+        <div id="mobile-menu"
+            class="hidden md:hidden absolute top-full left-0 w-full p-6 flex flex-col space-y-4 shadow-lg border-b border-gray-800">
             <a href="#about" class="block text-lg font-bold" onclick="toggleMenu()">Storia</a>
             <a href="#prezzi" class="block text-lg font-bold" onclick="toggleMenu()">Prezzi</a>
             <a href="#app" class="block text-lg font-bold" onclick="toggleMenu()">Download App</a>
@@ -68,13 +78,17 @@
     <!-- HOME -->
     <header class="relative h-screen min-h-[600px] flex items-center justify-center text-center px-4 overflow-hidden">
         <div class="absolute inset-0 z-0">
-            <img src="static/img/desk.png" alt="Tommy Barber Exclusive Design" class="w-full h-full object-cover opacity-50">
-            
-            <div class="absolute inset-0 bg-gradient-to-b from-transparent via-[var(--bg-primary)]/50 to-[var(--bg-primary)]"></div>
+            <img src="static/img/desk.png" alt="Tommy Barber Exclusive Design"
+                class="w-full h-full object-cover opacity-50">
+
+            <div
+                class="absolute inset-0 bg-gradient-to-b from-transparent via-[var(--bg-primary)]/50 to-[var(--bg-primary)]">
+            </div>
         </div>
 
         <div class="relative z-10 max-w-3xl mx-auto mt-16">
-            <p class="text-custom-accent uppercase tracking-[0.3em] mb-4 font-bold text-sm md:text-base animate-pulse">Dal 2024 a Modena</p>
+            <p class="text-custom-accent uppercase tracking-[0.3em] mb-4 font-bold text-sm md:text-base animate-pulse">
+                Dal 2024 a Modena</p>
             <h1 class="text-5xl md:text-7xl mb-6 leading-tight brand-font">
                 L'Arte del <br><span class="text-custom-accent">Taglio Perfetto</span>
             </h1>
@@ -86,7 +100,8 @@
                 <a href="#app" class="btn-custom px-8 py-4 text-lg shadow-xl flex items-center justify-center gap-2">
                     <i class="fab fa-apple"></i> Scarica iOS
                 </a>
-                <a href="#app" class="btn-custom px-8 py-4 text-lg shadow-xl flex items-center justify-center gap-2 filter brightness-110">
+                <a href="#app"
+                    class="btn-custom px-8 py-4 text-lg shadow-xl flex items-center justify-center gap-2 filter brightness-110">
                     <i class="fab fa-google-play"></i> Scarica Android
                 </a>
             </div>
@@ -96,23 +111,25 @@
     <!-- ABOUT & TEAM SECTION -->
     <section id="about" class="py-20 bg-custom-secondary">
         <div class="max-w-6xl mx-auto px-6">
-            
+
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-                
-                <div class="relative h-full min-h-[500px] w-full rounded-[var(--border-radius)] overflow-hidden shadow-2xl group">
-                    <img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?q=80&w=2070&auto=format&fit=crop" 
-                         alt="Tommy Barber" 
-                         class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
-                    
+
+                <div
+                    class="relative h-full min-h-[500px] w-full rounded-[var(--border-radius)] overflow-hidden shadow-2xl group">
+                    <img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?q=80&w=2070&auto=format&fit=crop"
+                        alt="Tommy Barber"
+                        class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-60"></div>
                 </div>
 
                 <div class="flex flex-col justify-center text-left">
-                    <p class="text-custom-accent uppercase tracking-[0.2em] font-bold text-sm mb-2">Master Barber & Founder</p>
+                    <p class="text-custom-accent uppercase tracking-[0.2em] font-bold text-sm mb-2">Master Barber &
+                        Founder</p>
                     <h2 class="text-5xl md:text-6xl mb-6 brand-font leading-none">
                         Tommy <br><span class="text-custom-accent">Barber</span>
                     </h2>
-                    
+
                     <div class="w-20 h-1 bg-[var(--text-accent)] mb-8"></div>
 
                     <div class="space-y-6 text-lg opacity-80 leading-relaxed">
@@ -120,10 +137,15 @@
                             Benvenuto. Sono Tommy, e la barberia è la mia vita.
                         </p>
                         <p>
-                            Con oltre <strong class="text-white">6 anni di esperienza</strong> maturata lavorando nelle migliori barberie tra <strong class="text-white">Modena e Bologna</strong>, ho affinato la mia tecnica e il mio stile, imparando che ogni cliente merita un'attenzione unica.
+                            Con oltre <strong class="text-white">6 anni di esperienza</strong> maturata lavorando nelle
+                            migliori barberie tra <strong class="text-white">Modena e Bologna</strong>, ho affinato la
+                            mia tecnica e il mio stile, imparando che ogni cliente merita un'attenzione unica.
                         </p>
                         <p>
-                            Ho deciso di mettermi in proprio per un motivo semplice: volevo il tempo e la libertà di curare ogni dettaglio. Qui non sei un numero in una catena di montaggio. Ho creato questo spazio per dedicarmi completamente a te, offrendoti non solo un taglio impeccabile, ma un momento di relax e fiducia assoluta.
+                            Ho deciso di mettermi in proprio per un motivo semplice: volevo il tempo e la libertà di
+                            curare ogni dettaglio. Qui non sei un numero in una catena di montaggio. Ho creato questo
+                            spazio per dedicarmi completamente a te, offrendoti non solo un taglio impeccabile, ma un
+                            momento di relax e fiducia assoluta.
                         </p>
                     </div>
 
@@ -183,13 +205,16 @@
                 </h2>
 
                 <div class="flex flex-col gap-6 mb-10">
-                    
+
                     <div class="flex group">
-                        <div class="shrink-0 w-12 h-12 rounded-full bg-gray-900 border border-gray-700 text-custom-accent flex items-center justify-center text-xl shadow-lg transition-colors group-hover:bg-custom-accent group-hover:text-black group-hover:border-transparent">
+                        <div
+                            class="shrink-0 w-12 h-12 rounded-full bg-gray-900 border border-gray-700 text-custom-accent flex items-center justify-center text-xl shadow-lg transition-colors group-hover:bg-custom-accent group-hover:text-black group-hover:border-transparent">
                             <i class="fas fa-mobile-screen-button"></i>
                         </div>
                         <div class="ml-4">
-                            <h3 class="text-xl font-bold text-white mb-1 group-hover:text-custom-accent transition-colors">1. Scarica l'App</h3>
+                            <h3
+                                class="text-xl font-bold text-white mb-1 group-hover:text-custom-accent transition-colors">
+                                1. Scarica l'App</h3>
                             <p class="text-sm text-gray-400 leading-relaxed max-w-sm">
                                 Disponibile gratuitamente per iOS e Android. Nessuna registrazione complicata.
                             </p>
@@ -197,11 +222,14 @@
                     </div>
 
                     <div class="flex group">
-                        <div class="shrink-0 w-12 h-12 rounded-full bg-gray-900 border border-gray-700 text-custom-accent flex items-center justify-center text-xl shadow-lg transition-colors group-hover:bg-custom-accent group-hover:text-black group-hover:border-transparent">
+                        <div
+                            class="shrink-0 w-12 h-12 rounded-full bg-gray-900 border border-gray-700 text-custom-accent flex items-center justify-center text-xl shadow-lg transition-colors group-hover:bg-custom-accent group-hover:text-black group-hover:border-transparent">
                             <i class="far fa-calendar-check"></i>
                         </div>
                         <div class="ml-4">
-                            <h3 class="text-xl font-bold text-white mb-1 group-hover:text-custom-accent transition-colors">2. Scegli il tuo Slot</h3>
+                            <h3
+                                class="text-xl font-bold text-white mb-1 group-hover:text-custom-accent transition-colors">
+                                2. Scegli il tuo Slot</h3>
                             <p class="text-sm text-gray-400 leading-relaxed max-w-sm">
                                 Seleziona il servizio e l'orario che preferisci in tempo reale.
                             </p>
@@ -209,11 +237,14 @@
                     </div>
 
                     <div class="flex group">
-                        <div class="shrink-0 w-12 h-12 rounded-full bg-gray-900 border border-gray-700 text-custom-accent flex items-center justify-center text-xl shadow-lg transition-colors group-hover:bg-custom-accent group-hover:text-black group-hover:border-transparent">
+                        <div
+                            class="shrink-0 w-12 h-12 rounded-full bg-gray-900 border border-gray-700 text-custom-accent flex items-center justify-center text-xl shadow-lg transition-colors group-hover:bg-custom-accent group-hover:text-black group-hover:border-transparent">
                             <i class="fas fa-scissors"></i>
                         </div>
                         <div class="ml-4">
-                            <h3 class="text-xl font-bold text-white mb-1 group-hover:text-custom-accent transition-colors">3. Goditi il Taglio</h3>
+                            <h3
+                                class="text-xl font-bold text-white mb-1 group-hover:text-custom-accent transition-colors">
+                                3. Goditi il Taglio</h3>
                             <p class="text-sm text-gray-400 leading-relaxed max-w-sm">
                                 Conferma e rilassati. Gestisci i tuoi appuntamenti in totale autonomia.
                             </p>
@@ -221,27 +252,27 @@
                     </div>
 
                 </div>
-                
+
                 <div class="flex flex-col sm:flex-row items-center gap-8">
-                    
+
                     <div class="flex flex-col gap-4 w-full sm:w-auto">
-                        <a href="https://apps.apple.com/it/app/tommy-barber-modena/id6745406274" target="_blank" 
-                        class="btn-custom flex items-center justify-center gap-4 px-8 py-4 text-lg shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all border-2 border-transparent hover:border-black rounded-lg w-full sm:w-64">
+                        <a href="https://apps.apple.com/it/app/tommy-barber-modena/id6745406274" target="_blank"
+                            class="btn-custom flex items-center justify-center gap-4 px-8 py-4 text-lg shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all border-2 border-transparent hover:border-black rounded-lg w-full sm:w-64">
                             <i class="fab fa-apple text-2xl"></i>
                             <span class="font-bold tracking-wide">APP STORE</span>
                         </a>
-                        
-                        <a href="https://play.google.com/store/apps/details?id=it.beppefasano.tommy&hl=it" target="_blank" 
-                        class="btn-custom flex items-center justify-center gap-4 px-8 py-4 text-lg shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all border-2 border-transparent hover:border-black rounded-lg w-full sm:w-64">
+
+                        <a href="https://play.google.com/store/apps/details?id=it.beppefasano.tommy&hl=it"
+                            target="_blank"
+                            class="btn-custom flex items-center justify-center gap-4 px-8 py-4 text-lg shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all border-2 border-transparent hover:border-black rounded-lg w-full sm:w-64">
                             <i class="fab fa-google-play text-xl"></i>
                             <span class="font-bold tracking-wide">GOOGLE PLAY</span>
                         </a>
                     </div>
 
-                    <div class="hidden sm:flex flex-col items-center justify-center p-4 bg-white text-black rounded-xl shadow-lg border-4 border-gray-900 ml-4 transform rotate-2 hover:rotate-0 transition-transform duration-300">
-                        <img src="static/img/qrcode-download-app.png" 
-                            alt="Scan to Download" 
-                            class="w-32 h-32 mb-2">
+                    <div
+                        class="hidden sm:flex flex-col items-center justify-center p-4 bg-white text-black rounded-xl shadow-lg border-4 border-gray-900 ml-4 transform rotate-2 hover:rotate-0 transition-transform duration-300">
+                        <img src="static/img/qrcode-download-app.png" alt="Scan to Download" class="w-32 h-32 mb-2">
                         <span class="text-xs font-bold uppercase tracking-wider">Scansiona qui</span>
                     </div>
 
@@ -250,10 +281,11 @@
 
 
             <div class="order-1 md:order-2 flex justify-center relative font-sans">
-                <div class="relative w-72 h-[600px] border-8 border-gray-800 rounded-[3rem] bg-white shadow-2xl overflow-hidden box-border">
-                    
+                <div
+                    class="relative w-72 h-[600px] border-8 border-gray-800 rounded-[3rem] bg-white shadow-2xl overflow-hidden box-border">
+
                     <div class="absolute top-0 left-1/2 -translate-x-1/2 w-28 h-7 bg-black rounded-b-xl z-30"></div>
-                    
+
                     <div class="absolute top-2 left-6 z-30 text-white text-[10px] font-semibold">11:54</div>
                     <div class="absolute top-2 right-6 z-30 flex gap-1">
                         <div class="w-3 h-3 bg-white rounded-full opacity-80"></div>
@@ -262,13 +294,14 @@
 
                     <div class="flex flex-col h-full w-full relative">
 
-                        <div class="relative h-[45%] w-full bg-cover bg-center rounded-b-[40px] shadow-lg" 
+                        <div class="relative h-[45%] w-full bg-cover bg-center rounded-b-[40px] shadow-lg"
                             style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.1)), url('https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=600&q=80');">
-                            
+
                             <div class="absolute top-12 left-0 w-full px-5 flex justify-between items-start text-white">
                                 <div class="flex items-center gap-3">
                                     <div class="w-12 h-12 rounded-xl border-2 border-white overflow-hidden bg-gray-300">
-                                        <img src="static/img/MarioRossi.svg" alt="Avatar" class="w-full h-full object-cover">
+                                        <img src="static/img/MarioRossi.svg" alt="Avatar"
+                                            class="w-full h-full object-cover">
                                     </div>
                                     <div>
                                         <p class="text-xs font-light opacity-90">Ciao</p>
@@ -276,17 +309,24 @@
                                     </div>
                                 </div>
                                 <button class="mt-2">
-                                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M4 6h16M4 12h16M4 18h16"></path>
+                                    </svg>
                                 </button>
                             </div>
                         </div>
 
                         <div class="flex-1 bg-white px-5 pt-6 overflow-y-auto">
-                            
+
                             <div class="flex justify-between items-center py-4 border-b border-gray-100">
                                 <div class="flex items-center gap-3">
                                     <div class="w-10 h-10 flex items-center justify-center text-amber-400">
-                                        <svg viewBox="0 0 512 512" class="w-8 h-8 fill-current"><path d="M256 224c-35.3 0-64-28.7-64-64s28.7-64 64-64 64 28.7 64 64-28.7 64-64 64zm174.9 27.4c-26.6-47-75.1-77.9-128.9-81.8 11.6 15.3 18.2 34.2 18.2 54.4 0 42.1-28.4 77.5-67.4 89.2 16 2.4 32.5 3.6 49.2 3.6 28.3 0 55.4-3.5 81.3-10 16.5-4.1 33.6-1.5 48.4 7.6 14.8 9.2 24.3 24.9 26.6 42.1 4.2 31.8-17.6 61.2-48.7 65.5-30.8 4.3-64.4-1.6-96.1-9.9-46.7-12.2-94.8-12.2-141.5 0-31.7 8.3-65.4 14.2-96.1 9.9-31.1-4.3-52.9-33.7-48.7-65.5 2.3-17.3 11.8-32.9 26.6-42.1 14.8-9.1 31.9-11.7 48.4-7.6 25.9 6.5 53 10 81.3 10 16.7 0 33.2-1.2 49.2-3.6-39-11.7-67.4-47.1-67.4-89.2 0-20.2 6.6-39.1 18.2-54.4-53.8 3.9-102.3 34.8-128.9 81.8-23.7 41.9-16.1 96.1 22.8 128.7 21.8 18.3 49.4 28.2 77.8 28.2 24.5 0 49-7.4 70.3-21.7 13-8.7 28.2-13.4 43.8-13.4s30.8 4.7 43.8 13.4c21.3 14.3 45.8 21.7 70.3 21.7 28.4 0 56-9.9 77.8-28.2 38.9-32.6 46.5-86.8 22.8-128.7z"/></svg>
+                                        <svg viewBox="0 0 512 512" class="w-8 h-8 fill-current">
+                                            <path
+                                                d="M256 224c-35.3 0-64-28.7-64-64s28.7-64 64-64 64 28.7 64 64-28.7 64-64 64zm174.9 27.4c-26.6-47-75.1-77.9-128.9-81.8 11.6 15.3 18.2 34.2 18.2 54.4 0 42.1-28.4 77.5-67.4 89.2 16 2.4 32.5 3.6 49.2 3.6 28.3 0 55.4-3.5 81.3-10 16.5-4.1 33.6-1.5 48.4 7.6 14.8 9.2 24.3 24.9 26.6 42.1 4.2 31.8-17.6 61.2-48.7 65.5-30.8 4.3-64.4-1.6-96.1-9.9-46.7-12.2-94.8-12.2-141.5 0-31.7 8.3-65.4 14.2-96.1 9.9-31.1-4.3-52.9-33.7-48.7-65.5 2.3-17.3 11.8-32.9 26.6-42.1 14.8-9.1 31.9-11.7 48.4-7.6 25.9 6.5 53 10 81.3 10 16.7 0 33.2-1.2 49.2-3.6-39-11.7-67.4-47.1-67.4-89.2 0-20.2 6.6-39.1 18.2-54.4-53.8 3.9-102.3 34.8-128.9 81.8-23.7 41.9-16.1 96.1 22.8 128.7 21.8 18.3 49.4 28.2 77.8 28.2 24.5 0 49-7.4 70.3-21.7 13-8.7 28.2-13.4 43.8-13.4s30.8 4.7 43.8 13.4c21.3 14.3 45.8 21.7 70.3 21.7 28.4 0 56-9.9 77.8-28.2 38.9-32.6 46.5-86.8 22.8-128.7z" />
+                                        </svg>
                                     </div>
                                     <div>
                                         <h4 class="font-bold text-gray-800 text-sm">Barba</h4>
@@ -302,7 +342,10 @@
                             <div class="flex justify-between items-center py-4 border-b border-gray-100">
                                 <div class="flex items-center gap-3">
                                     <div class="w-10 h-10 flex items-center justify-center text-amber-400">
-                                    <svg viewBox="0 0 24 24" class="w-7 h-7 fill-current"><path d="M6 2c-1.1 0-2 .9-2 2v6.1c0 2.5 1.4 4.8 3.6 5.9L4.4 22h2.2l3-5.3.8-.4c.7.5 1.6.8 2.6.8.9 0 1.7-.2 2.4-.6l.7.4 2.9 5.2h2.2l-3.2-5.9c2.1-1.2 3.4-3.4 3.4-5.8V4c0-1.1-.9-2-2-2h-2.5c-.7 0-1.3.4-1.6 1l-2.4 4.3L10.1 3c-.3-.6-.9-1-1.6-1H6zm1.5 6.5l2-3.6 2 3.6-2 3.5-2-3.5zM16.5 4l-2 3.5-2-3.5h4z"/></svg>
+                                        <svg viewBox="0 0 24 24" class="w-7 h-7 fill-current">
+                                            <path
+                                                d="M6 2c-1.1 0-2 .9-2 2v6.1c0 2.5 1.4 4.8 3.6 5.9L4.4 22h2.2l3-5.3.8-.4c.7.5 1.6.8 2.6.8.9 0 1.7-.2 2.4-.6l.7.4 2.9 5.2h2.2l-3.2-5.9c2.1-1.2 3.4-3.4 3.4-5.8V4c0-1.1-.9-2-2-2h-2.5c-.7 0-1.3.4-1.6 1l-2.4 4.3L10.1 3c-.3-.6-.9-1-1.6-1H6zm1.5 6.5l2-3.6 2 3.6-2 3.5-2-3.5zM16.5 4l-2 3.5-2-3.5h4z" />
+                                        </svg>
                                     </div>
                                     <div>
                                         <h4 class="font-bold text-gray-800 text-sm">Taglio</h4>
@@ -318,7 +361,10 @@
                             <div class="flex justify-between items-center py-4 border-b border-gray-100">
                                 <div class="flex items-center gap-3">
                                     <div class="w-10 h-10 flex items-center justify-center text-amber-400">
-                                    <svg viewBox="0 0 24 24" class="w-7 h-7 fill-current"><path d="M6 2c-1.1 0-2 .9-2 2v6.1c0 2.5 1.4 4.8 3.6 5.9L4.4 22h2.2l3-5.3.8-.4c.7.5 1.6.8 2.6.8.9 0 1.7-.2 2.4-.6l.7.4 2.9 5.2h2.2l-3.2-5.9c2.1-1.2 3.4-3.4 3.4-5.8V4c0-1.1-.9-2-2-2h-2.5c-.7 0-1.3.4-1.6 1l-2.4 4.3L10.1 3c-.3-.6-.9-1-1.6-1H6zm1.5 6.5l2-3.6 2 3.6-2 3.5-2-3.5zM16.5 4l-2 3.5-2-3.5h4z"/></svg>
+                                        <svg viewBox="0 0 24 24" class="w-7 h-7 fill-current">
+                                            <path
+                                                d="M6 2c-1.1 0-2 .9-2 2v6.1c0 2.5 1.4 4.8 3.6 5.9L4.4 22h2.2l3-5.3.8-.4c.7.5 1.6.8 2.6.8.9 0 1.7-.2 2.4-.6l.7.4 2.9 5.2h2.2l-3.2-5.9c2.1-1.2 3.4-3.4 3.4-5.8V4c0-1.1-.9-2-2-2h-2.5c-.7 0-1.3.4-1.6 1l-2.4 4.3L10.1 3c-.3-.6-.9-1-1.6-1H6zm1.5 6.5l2-3.6 2 3.6-2 3.5-2-3.5zM16.5 4l-2 3.5-2-3.5h4z" />
+                                        </svg>
                                     </div>
                                     <div>
                                         <h4 class="font-bold text-gray-800 text-sm">Taglio e Barba</h4>
@@ -333,23 +379,36 @@
 
                         </div>
 
-                        <div class="absolute bottom-0 w-full h-20 bg-gray-50 rounded-t-[30px] shadow-[0_-5px_15px_rgba(0,0,0,0.05)]">
-                            
+                        <div
+                            class="absolute bottom-0 w-full h-20 bg-gray-50 rounded-t-[30px] shadow-[0_-5px_15px_rgba(0,0,0,0.05)]">
+
                             <div class="absolute left-1/2 -translate-x-1/2 -top-6">
-                                <button class="w-14 h-14 bg-amber-400 rounded-full flex items-center justify-center text-white shadow-lg border-[4px] border-white">
-                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path></svg>
+                                <button
+                                    class="w-14 h-14 bg-amber-400 rounded-full flex items-center justify-center text-white shadow-lg border-[4px] border-white">
+                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M12 4v16m8-8H4"></path>
+                                    </svg>
                                 </button>
                             </div>
 
                             <div class="flex justify-between items-center px-6 h-full pb-2">
                                 <div class="flex gap-6">
                                     <div class="flex flex-col items-center gap-1 cursor-pointer group">
-                                        <svg class="w-6 h-6 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
+                                        <svg class="w-6 h-6 text-amber-400" fill="none" stroke="currentColor"
+                                            viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6">
+                                            </path>
+                                        </svg>
                                         <span class="text-[9px] text-amber-400 font-medium">Home</span>
                                         <div class="w-4 h-1 bg-amber-400 rounded-full"></div>
                                     </div>
                                     <div class="flex flex-col items-center gap-1 cursor-pointer text-gray-400">
-                                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg>
+                                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
+                                        </svg>
                                         <span class="text-[9px]">Servizi</span>
                                     </div>
                                 </div>
@@ -358,11 +417,18 @@
 
                                 <div class="flex gap-6">
                                     <div class="flex flex-col items-center gap-1 cursor-pointer text-gray-400">
-                                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z">
+                                            </path>
+                                        </svg>
                                         <span class="text-[9px]">Prenotazioni</span>
                                     </div>
                                     <div class="flex flex-col items-center gap-1 cursor-pointer text-gray-400">
-                                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                        </svg>
                                         <span class="text-[9px]">Info</span>
                                     </div>
                                 </div>
@@ -371,7 +437,8 @@
 
                     </div>
                 </div>
-                <div class="absolute -z-10 top-20 -right-10 w-40 h-40 bg-amber-400 rounded-full blur-3xl opacity-20"></div>
+                <div class="absolute -z-10 top-20 -right-10 w-40 h-40 bg-amber-400 rounded-full blur-3xl opacity-20">
+                </div>
             </div>
     </section>
 
@@ -385,29 +452,33 @@
             </div>
 
             <div id="gallery-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                </div>
+            </div>
         </div>
     </section>
 
     <div id="lightbox" class="fixed inset-0 z-[100] hidden opacity-0 transition-opacity duration-300">
-        
+
         <div class="absolute inset-0 bg-black/80 backdrop-blur-md" id="lightbox-bg"></div>
-        
-        <button id="lightbox-close" class="absolute top-6 right-6 text-white text-4xl hover:text-[var(--text-accent)] transition z-[110]">
+
+        <button id="lightbox-close"
+            class="absolute top-6 right-6 text-white text-4xl hover:text-[var(--text-accent)] transition z-[110]">
             <i class="fas fa-times"></i>
         </button>
 
-        <button id="lightbox-prev" class="absolute left-2 top-1/2 -translate-y-1/2 text-white/70 hover:text-[var(--text-accent)] hover:scale-110 transition z-[120] text-4xl p-4 cursor-pointer">
+        <button id="lightbox-prev"
+            class="absolute left-2 top-1/2 -translate-y-1/2 text-white/70 hover:text-[var(--text-accent)] hover:scale-110 transition z-[120] text-4xl p-4 cursor-pointer">
             <i class="fas fa-chevron-left"></i>
         </button>
 
-        <button id="lightbox-next" class="absolute right-2 top-1/2 -translate-y-1/2 text-white/70 hover:text-[var(--text-accent)] hover:scale-110 transition z-[120] text-4xl p-4 cursor-pointer">
+        <button id="lightbox-next"
+            class="absolute right-2 top-1/2 -translate-y-1/2 text-white/70 hover:text-[var(--text-accent)] hover:scale-110 transition z-[120] text-4xl p-4 cursor-pointer">
             <i class="fas fa-chevron-right"></i>
         </button>
 
         <div class="absolute inset-0 flex items-center justify-center p-4 pointer-events-none">
-            <div id="lightbox-content" class="pointer-events-auto max-w-5xl w-full max-h-[80vh] flex items-center justify-center rounded-[var(--border-radius)] overflow-hidden shadow-2xl border border-[var(--text-accent)] bg-black">
-                </div>
+            <div id="lightbox-content"
+                class="pointer-events-auto max-w-5xl w-full max-h-[80vh] flex items-center justify-center rounded-[var(--border-radius)] overflow-hidden shadow-2xl border border-[var(--text-accent)] bg-black">
+            </div>
         </div>
     </div>
 
@@ -418,9 +489,11 @@
 
             <div id="reviews-container" class="grid grid-cols-1 md:grid-cols-3 gap-6">
             </div>
-            
+
             <div class="text-center mt-10">
-                <a target="_blank" href="https://www.google.com/maps/search/?api=1&query=Tommy+Barber+Modena" class="inline-block border-b-2 border-[var(--text-accent)] pb-1 hover:text-[var(--text-accent)] transition">Leggi tutte le recensioni</a>
+                <a target="_blank" href="https://www.google.com/maps/search/?api=1&query=Tommy+Barber+Modena"
+                    class="inline-block border-b-2 border-[var(--text-accent)] pb-1 hover:text-[var(--text-accent)] transition">Leggi
+                    tutte le recensioni</a>
             </div>
         </div>
     </section>
@@ -435,28 +508,44 @@
                     <ul class="space-y-6 text-lg">
                         <li class="flex items-start gap-4">
                             <i class="fas fa-map-marker-alt mt-1 text-custom-accent"></i>
-                            <a href="https://maps.google.com/maps/dir/Tommy+Barber+Modena+Via+Paolo+Ferrari,+133+41121+Modena+MO/@44.65075,10.936837,14z/data=!4m5!4m4!1m0!1m2!1m1!1s0x477fef6804687a8f:0x31ea6a7cec418117" target="_blank" class="border-[var(--text-accent)] hover:text-[var(--text-accent)] pb-2 transition">Via Paolo Ferrari, 133, 41121 Modena MO</a>
+                            <a href="https://maps.google.com/maps/dir/Tommy+Barber+Modena+Via+Paolo+Ferrari,+133+41121+Modena+MO/@44.65075,10.936837,14z/data=!4m5!4m4!1m0!1m2!1m1!1s0x477fef6804687a8f:0x31ea6a7cec418117"
+                                target="_blank"
+                                class="border-[var(--text-accent)] hover:text-[var(--text-accent)] pb-2 transition">Via
+                                Paolo Ferrari, 133, 41121 Modena MO</a>
+                        </li>
+                        <li class="flex items-start gap-4">
+                            <i class="far fa-clock mt-1 text-custom-accent"></i>
+                            <div class="text-base opacity-80 flex flex-col gap-1 w-full max-w-[200px]">
+                                <div class="flex justify-between"><span>Lunedì</span> <span>Chiuso</span></div>
+                                <div class="flex justify-between"><span>Martedì</span> <span>09:00 – 20:00</span></div>
+                                <div class="flex justify-between"><span>Mercoledì</span> <span>09:00 – 20:00</span>
+                                </div>
+                                <div class="flex justify-between"><span>Giovedì</span> <span>09:00 – 20:00</span></div>
+                                <div class="flex justify-between"><span>Venerdì</span> <span>09:00 – 20:00</span></div>
+                                <div class="flex justify-between"><span>Sabato</span> <span>08:00 – 18:00</span></div>
+                                <div class="flex justify-between"><span>Domenica</span> <span>Chiuso</span></div>
+                            </div>
                         </li>
                         <li class="flex items-center gap-4">
                             <i class="fas fa-phone text-custom-accent"></i>
-                            <a href="tel:+390000000000" class="border-[var(--text-accent)] hover:text-[var(--text-accent)] pb-2 transition">+39 351 477 5031</a>
+                            <a href="tel:+393514775031"
+                                class="border-[var(--text-accent)] hover:text-[var(--text-accent)] pb-2 transition">+39
+                                351 477 5031</a>
                         </li>
                         <li class="flex items-center gap-4">
                             <i class="fab fa-instagram text-custom-accent"></i>
-                            <a href="https://www.instagram.com/tommybarbermodena/" class="border-[var(--text-accent)] hover:text-[var(--text-accent)] pb-2 transition">tommybarbermodena</a>
+                            <a href="https://www.instagram.com/tommybarbermodena/"
+                                class="border-[var(--text-accent)] hover:text-[var(--text-accent)] pb-2 transition">tommybarbermodena</a>
                         </li>
                     </ul>
                 </div>
 
                 <!-- Map -->
-                <div class="md:col-span-2 h-64 md:h-full min-h-[300px] w-full bg-gray-800 rounded-[var(--border-radius)] overflow-hidden relative">
-                    <iframe 
-                        src= "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d22706.97631953023!2d10.936837!3d44.65075!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477fef6804687a8f%3A0x31ea6a7cec418117!2sTommy%20Barber%20Modena!5e0!3m2!1sit!2sit!4v1766949021239!5m2!1sit!2sit" 
-                        width="100%" 
-                        height="100%" 
-                        style="border:10;" 
-                        allowfullscreen="" 
-                        loading="lazy" 
+                <div
+                    class="md:col-span-2 h-64 md:h-full min-h-[300px] w-full bg-gray-800 rounded-[var(--border-radius)] overflow-hidden relative">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d22706.97631953023!2d10.936837!3d44.65075!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477fef6804687a8f%3A0x31ea6a7cec418117!2sTommy%20Barber%20Modena!5e0!3m2!1sit!2sit!4v1766949021239!5m2!1sit!2sit"
+                        width="100%" height="100%" style="border:10;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
                 </div>
@@ -472,4 +561,5 @@
     <!-- COLLEGAMENTO AL TUO FILE JS ESTERNO -->
     <script src="static/js/main.js"></script>
 </body>
+
 </html>
